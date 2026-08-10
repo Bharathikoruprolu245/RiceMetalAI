@@ -1,0 +1,84 @@
+{
+    "structure": {
+        "pdb_id": "8E6N",
+        "file": "data/structures/pdb/8E6N.pdb",
+        "description": "NRAMP/MntH divalent metal transporter reference structure"
+    },
+    "analysis": {
+        "method": "Distance-based screening of protein residues surrounding detected metal atoms",
+        "distance_cutoff_angstrom": 3.5
+    },
+    "metals_detected": 2,
+    "metal_binding_environments": [
+        {
+            "metal": {
+                "model": 0,
+                "chain": "A",
+                "residue_number": 501,
+                "residue_name": "MN",
+                "atom_name": "MN",
+                "coord": [
+                    -29.45400047302246,
+                    -48.255001068115234,
+                    15.036999702453613
+                ]
+            },
+            "distance_cutoff_angstrom": 3.5,
+            "nearby_residues": [
+                {
+                    "chain": "A",
+                    "residue_number": 56,
+                    "residue_name": "ASP",
+                    "closest_atom": "OD1",
+                    "distance_angstrom": 2.386
+                },
+                {
+                    "chain": "A",
+                    "residue_number": 53,
+                    "residue_name": "ALA",
+                    "closest_atom": "O",
+                    "distance_angstrom": 2.429
+                },
+                {
+                    "chain": "A",
+                    "residue_number": 230,
+                    "residue_name": "MET",
+                    "closest_atom": "SD",
+                    "distance_angstrom": 3.043
+                },
+                {
+                    "chain": "A",
+                    "residue_number": 59,
+                    "residue_name": "ASN",
+                    "closest_atom": "OD1",
+                    "distance_angstrom": 3.261
+                }
+            ]
+        },
+        {
+            "metal": {
+                "model": 0,
+                "chain": "A",
+                "residue_number": 502,
+                "residue_name": "MN",
+                "atom_name": "MN",
+                "coord": [
+                    -52.87900161743164,
+                    -49.37799835205078,
+                    0.0
+                ]
+            },
+            "distance_cutoff_angstrom": 3.5,
+            "nearby_residues": [
+                {
+                    "chain": "A",
+                    "residue_number": 287,
+                    "residue_name": "HIS",
+                    "closest_atom": "NE2",
+                    "distance_angstrom": 2.403
+                }
+            ]
+        }
+    ],
+    "interpretation": "Residues listed here are structurally proximal to detected metal atoms within the selected distance cutoff. Proximity alone does not prove direct metal coordination."
+}
