@@ -8,8 +8,13 @@ from backend.database.session import engine
 
 # Import models so Alembic can detect them.
 # More models will be added here as the project grows.
-from backend.models import metal  # noqa: F401
-
+  # noqa: F401
+from backend.models import (
+    metal,
+    gene_family,
+    gene,
+    gene_metal,
+)
 
 config = context.config
 
