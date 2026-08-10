@@ -1,0 +1,156 @@
+{
+    "protein": {
+        "accession": "NP_001389970.1",
+        "gene": "OsNRAMP5",
+        "sequence_length_aa": 538
+    },
+    "methods": {
+        "computational_screening": {
+            "method": "hydrophobic-window screening",
+            "window_size": 19,
+            "hydrophobic_fraction_threshold": 0.68
+        },
+        "reference_annotation": {
+            "database": "NCBI RefSeq",
+            "source": {
+                "database": "NCBI RefSeq",
+                "accession": "NP_001389970.1",
+                "source_file": "data/raw/ncbi/OsNRAMP5_NP_001389970.1_protein_annotation.gb"
+            }
+        }
+    },
+    "counts": {
+        "computational_regions": 8,
+        "ncbi_transmembrane_regions": 12,
+        "strong_overlaps": 7,
+        "partial_overlaps": 1,
+        "no_overlaps": 0
+    },
+    "agreement": {
+        "regions_with_any_overlap": 8,
+        "agreement_percentage": 100.0
+    },
+    "region_comparisons": [
+        {
+            "screening_region": 1,
+            "screening_start": 70,
+            "screening_end": 104,
+            "screening_length": 35,
+            "max_hydrophobic_fraction": 0.842,
+            "best_ncbi_match": {
+                "ncbi_region": 2,
+                "start": 77,
+                "end": 97,
+                "overlap_residues": 21
+            },
+            "overlap_percentage": 60.0,
+            "agreement": "strong_overlap"
+        },
+        {
+            "screening_region": 2,
+            "screening_start": 113,
+            "screening_end": 162,
+            "screening_length": 50,
+            "max_hydrophobic_fraction": 0.842,
+            "best_ncbi_match": {
+                "ncbi_region": 3,
+                "start": 118,
+                "end": 138,
+                "overlap_residues": 21
+            },
+            "overlap_percentage": 42.0,
+            "agreement": "partial_overlap"
+        },
+        {
+            "screening_region": 3,
+            "screening_start": 173,
+            "screening_end": 203,
+            "screening_length": 31,
+            "max_hydrophobic_fraction": 0.737,
+            "best_ncbi_match": {
+                "ncbi_region": 5,
+                "start": 181,
+                "end": 201,
+                "overlap_residues": 21
+            },
+            "overlap_percentage": 67.74,
+            "agreement": "strong_overlap"
+        },
+        {
+            "screening_region": 4,
+            "screening_start": 222,
+            "screening_end": 247,
+            "screening_length": 26,
+            "max_hydrophobic_fraction": 0.684,
+            "best_ncbi_match": {
+                "ncbi_region": 6,
+                "start": 227,
+                "end": 247,
+                "overlap_residues": 21
+            },
+            "overlap_percentage": 80.77,
+            "agreement": "strong_overlap"
+        },
+        {
+            "screening_region": 5,
+            "screening_start": 261,
+            "screening_end": 291,
+            "screening_length": 31,
+            "max_hydrophobic_fraction": 0.789,
+            "best_ncbi_match": {
+                "ncbi_region": 7,
+                "start": 264,
+                "end": 284,
+                "overlap_residues": 21
+            },
+            "overlap_percentage": 67.74,
+            "agreement": "strong_overlap"
+        },
+        {
+            "screening_region": 6,
+            "screening_start": 388,
+            "screening_end": 413,
+            "screening_length": 26,
+            "max_hydrophobic_fraction": 0.737,
+            "best_ncbi_match": {
+                "ncbi_region": 10,
+                "start": 391,
+                "end": 411,
+                "overlap_residues": 21
+            },
+            "overlap_percentage": 80.77,
+            "agreement": "strong_overlap"
+        },
+        {
+            "screening_region": 7,
+            "screening_start": 423,
+            "screening_end": 457,
+            "screening_length": 35,
+            "max_hydrophobic_fraction": 0.789,
+            "best_ncbi_match": {
+                "ncbi_region": 11,
+                "start": 427,
+                "end": 447,
+                "overlap_residues": 21
+            },
+            "overlap_percentage": 60.0,
+            "agreement": "strong_overlap"
+        },
+        {
+            "screening_region": 8,
+            "screening_start": 460,
+            "screening_end": 499,
+            "screening_length": 40,
+            "max_hydrophobic_fraction": 0.895,
+            "best_ncbi_match": {
+                "ncbi_region": 12,
+                "start": 467,
+                "end": 487,
+                "overlap_residues": 21
+            },
+            "overlap_percentage": 52.5,
+            "agreement": "strong_overlap"
+        }
+    ],
+    "interpretation": "Computational hydrophobic regions were compared against NCBI annotated transmembrane regions. Strong overlap indicates agreement between the independent hydrophobic screening method and the reference annotation. Partial or absent overlap indicates regions requiring further structural investigation."
+}
