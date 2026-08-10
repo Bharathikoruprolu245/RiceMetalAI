@@ -1,0 +1,188 @@
+{
+    "target": {
+        "gene": "OsNRAMP5",
+        "accession": "NP_001389970.1",
+        "sequence_length_aa": 538
+    },
+    "reference": {
+        "structure": "8E6N",
+        "chain": "A",
+        "protein": "MntH",
+        "organism": "Deinococcus radiodurans",
+        "sequence_length_aa": 398
+    },
+    "method": {
+        "name": "Heuristic metal-binding candidate evidence scoring",
+        "components": {
+            "reference_metal_proximity": "40%",
+            "sequence_conservation": "40%",
+            "sequence_mapping": "20%"
+        },
+        "note": "Scores are heuristic evidence scores and must not be interpreted as statistical binding probabilities."
+    },
+    "summary": {
+        "total_candidates": 5,
+        "high_evidence_candidates": 0,
+        "moderate_evidence_candidates": 4,
+        "low_evidence_candidates": 0,
+        "very_low_evidence_candidates": 1
+    },
+    "ranked_candidates": [
+        {
+            "candidate": {
+                "osnramp5_position": 95,
+                "osnramp5_residue": "L",
+                "reference_position": 53,
+                "reference_residue": "ALA",
+                "metal_residue": 501,
+                "metal": "MN"
+            },
+            "reference_evidence": {
+                "distance_angstrom": 2.429,
+                "closest_atom": "O",
+                "chain": "A",
+                "proximity_score": 28.56
+            },
+            "sequence_evidence": {
+                "mapping_status": "mapped",
+                "conservation_classification": "conservative_substitution",
+                "conservation_score": 30,
+                "reference_residue_1letter": "A",
+                "target_residue": "L",
+                "charge_conserved": true,
+                "polarity_conserved": true,
+                "hydrophobicity_conserved": true
+            },
+            "mapping_score": 20,
+            "total_candidate_score": 78.56,
+            "confidence": "moderate",
+            "interpretation": "Heuristic candidate score combining reference metal proximity, sequence mapping, and biochemical conservation. This score is not a statistical binding probability and does not prove metal coordination in OsNRAMP5.",
+            "rank": 1
+        },
+        {
+            "candidate": {
+                "osnramp5_position": 98,
+                "osnramp5_residue": "N",
+                "reference_position": 56,
+                "reference_residue": "ASP",
+                "metal_residue": 501,
+                "metal": "MN"
+            },
+            "reference_evidence": {
+                "distance_angstrom": 2.386,
+                "closest_atom": "OD1",
+                "chain": "A",
+                "proximity_score": 29.71
+            },
+            "sequence_evidence": {
+                "mapping_status": "mapped",
+                "conservation_classification": "partially_conserved",
+                "conservation_score": 15,
+                "reference_residue_1letter": "D",
+                "target_residue": "N",
+                "charge_conserved": false,
+                "polarity_conserved": true,
+                "hydrophobicity_conserved": true
+            },
+            "mapping_score": 20,
+            "total_candidate_score": 64.71,
+            "confidence": "moderate",
+            "interpretation": "Heuristic candidate score combining reference metal proximity, sequence mapping, and biochemical conservation. This score is not a statistical binding probability and does not prove metal coordination in OsNRAMP5.",
+            "rank": 2
+        },
+        {
+            "candidate": {
+                "osnramp5_position": 337,
+                "osnramp5_residue": "Q",
+                "reference_position": 287,
+                "reference_residue": "HIS",
+                "metal_residue": 502,
+                "metal": "MN"
+            },
+            "reference_evidence": {
+                "distance_angstrom": 2.403,
+                "closest_atom": "NE2",
+                "chain": "A",
+                "proximity_score": 29.25
+            },
+            "sequence_evidence": {
+                "mapping_status": "mapped",
+                "conservation_classification": "partially_conserved",
+                "conservation_score": 15,
+                "reference_residue_1letter": "H",
+                "target_residue": "Q",
+                "charge_conserved": false,
+                "polarity_conserved": true,
+                "hydrophobicity_conserved": true
+            },
+            "mapping_score": 20,
+            "total_candidate_score": 64.25,
+            "confidence": "moderate",
+            "interpretation": "Heuristic candidate score combining reference metal proximity, sequence mapping, and biochemical conservation. This score is not a statistical binding probability and does not prove metal coordination in OsNRAMP5.",
+            "rank": 3
+        },
+        {
+            "candidate": {
+                "osnramp5_position": 273,
+                "osnramp5_residue": "L",
+                "reference_position": 230,
+                "reference_residue": "MET",
+                "metal_residue": 501,
+                "metal": "MN"
+            },
+            "reference_evidence": {
+                "distance_angstrom": 3.043,
+                "closest_atom": "SD",
+                "chain": "A",
+                "proximity_score": 12.19
+            },
+            "sequence_evidence": {
+                "mapping_status": "mapped",
+                "conservation_classification": "conservative_substitution",
+                "conservation_score": 30,
+                "reference_residue_1letter": "M",
+                "target_residue": "L",
+                "charge_conserved": true,
+                "polarity_conserved": true,
+                "hydrophobicity_conserved": true
+            },
+            "mapping_score": 20,
+            "total_candidate_score": 62.19,
+            "confidence": "moderate",
+            "interpretation": "Heuristic candidate score combining reference metal proximity, sequence mapping, and biochemical conservation. This score is not a statistical binding probability and does not prove metal coordination in OsNRAMP5.",
+            "rank": 4
+        },
+        {
+            "candidate": {
+                "osnramp5_position": 101,
+                "osnramp5_residue": "V",
+                "reference_position": 59,
+                "reference_residue": "ASN",
+                "metal_residue": 501,
+                "metal": "MN"
+            },
+            "reference_evidence": {
+                "distance_angstrom": 3.261,
+                "closest_atom": "OD1",
+                "chain": "A",
+                "proximity_score": 6.37
+            },
+            "sequence_evidence": {
+                "mapping_status": "mapped",
+                "conservation_classification": "chemically_different",
+                "conservation_score": 0,
+                "reference_residue_1letter": "N",
+                "target_residue": "V",
+                "charge_conserved": true,
+                "polarity_conserved": false,
+                "hydrophobicity_conserved": false
+            },
+            "mapping_score": 20,
+            "total_candidate_score": 26.37,
+            "confidence": "very_low",
+            "interpretation": "Heuristic candidate score combining reference metal proximity, sequence mapping, and biochemical conservation. This score is not a statistical binding probability and does not prove metal coordination in OsNRAMP5.",
+            "rank": 5
+        }
+    ],
+    "interpretation": "Candidate sites were ranked by combining distance to manganese in the reference NRAMP structure, successful sequence mapping, and biochemical conservation between reference and OsNRAMP5 residues. Higher scores indicate stronger support from the currently available computational evidence. These rankings do not establish direct metal coordination, binding affinity, or experimental probability of binding in OsNRAMP5."
+}
