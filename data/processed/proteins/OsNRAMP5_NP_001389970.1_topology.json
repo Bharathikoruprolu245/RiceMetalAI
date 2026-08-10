@@ -1,0 +1,56 @@
+{
+    "protein": {
+        "accession": "NP_001389970.1",
+        "gene": "OsNRAMP5",
+        "sequence_length_aa": 538
+    },
+    "method": {
+        "analysis": "hydrophobic-window screening",
+        "window_size": 19,
+        "hydrophobic_fraction_threshold": 0.68,
+        "hydrophobic_residues": "AVILMFWY"
+    },
+    "candidate_hydrophobic_regions": [
+        {
+            "start": 70,
+            "end": 104,
+            "max_hydrophobic_fraction": 0.842
+        },
+        {
+            "start": 113,
+            "end": 162,
+            "max_hydrophobic_fraction": 0.842
+        },
+        {
+            "start": 173,
+            "end": 203,
+            "max_hydrophobic_fraction": 0.737
+        },
+        {
+            "start": 222,
+            "end": 247,
+            "max_hydrophobic_fraction": 0.684
+        },
+        {
+            "start": 261,
+            "end": 291,
+            "max_hydrophobic_fraction": 0.789
+        },
+        {
+            "start": 388,
+            "end": 413,
+            "max_hydrophobic_fraction": 0.737
+        },
+        {
+            "start": 423,
+            "end": 457,
+            "max_hydrophobic_fraction": 0.789
+        },
+        {
+            "start": 460,
+            "end": 499,
+            "max_hydrophobic_fraction": 0.895
+        }
+    ],
+    "interpretation": "Candidate hydrophobic regions identified computationally. These are not experimentally confirmed transmembrane helices."
+}
