@@ -1,0 +1,195 @@
+{
+    "target": {
+        "gene": "OsNRAMP5",
+        "accession": "NP_001389970.1",
+        "sequence_length_aa": 538
+    },
+    "reference": {
+        "structure": "8E6N",
+        "chain": "A",
+        "protein": "MntH",
+        "organism": "Deinococcus radiodurans",
+        "sequence_length_aa": 398
+    },
+    "source_analysis": {
+        "source": "data/processed/structures/8E6N_metal_binding.json",
+        "description": "Residues identified as structurally proximal to detected manganese atoms in the 8E6N reference structure.",
+        "distance_cutoff_angstrom": 3.5
+    },
+    "mapping_method": {
+        "alignment_file": "data/processed/alignments/OsNRAMP5_vs_8E6N_alignment.json",
+        "method": "Position mapping through global sequence alignment",
+        "note": "Mapped residues represent sequence correspondence to structurally proximal reference residues. They do not by themselves establish direct metal coordination or functional equivalence."
+    },
+    "analysis_method": {
+        "name": "Biochemical residue conservation analysis",
+        "reference_residue_conversion": "NCBI three-letter amino acid code converted to one-letter code",
+        "classification": [
+            "identical",
+            "conservative_substitution",
+            "chemically_similar",
+            "partially_conserved",
+            "chemically_different"
+        ]
+    },
+    "summary": {
+        "total_sites": 5,
+        "identical": 0,
+        "conservative_substitutions": 2,
+        "chemically_similar": 0,
+        "partially_conserved": 2,
+        "chemically_different": 1,
+        "unmapped": 0,
+        "unknown": 0,
+        "chemically_conserved_sites": 2,
+        "chemical_conservation_percentage": 40.0
+    },
+    "residue_conservation": [
+        {
+            "metal_residue": 501,
+            "metal": "MN",
+            "reference_position": 53,
+            "reference_residue": "ALA",
+            "osnramp5_position": 95,
+            "osnramp5_residue": "L",
+            "mapping_status": "mapped",
+            "residue_relationship": "different",
+            "conservation": {
+                "reference_residue_1letter": "A",
+                "classification": "conservative_substitution",
+                "reference_properties": {
+                    "name": "Alanine",
+                    "charge": "neutral",
+                    "polarity": "nonpolar",
+                    "hydrophobic": true
+                },
+                "osnramp5_properties": {
+                    "name": "Leucine",
+                    "charge": "neutral",
+                    "polarity": "nonpolar",
+                    "hydrophobic": true
+                },
+                "charge_conserved": true,
+                "polarity_conserved": true,
+                "hydrophobicity_conserved": true
+            }
+        },
+        {
+            "metal_residue": 501,
+            "metal": "MN",
+            "reference_position": 56,
+            "reference_residue": "ASP",
+            "osnramp5_position": 98,
+            "osnramp5_residue": "N",
+            "mapping_status": "mapped",
+            "residue_relationship": "different",
+            "conservation": {
+                "reference_residue_1letter": "D",
+                "classification": "partially_conserved",
+                "reference_properties": {
+                    "name": "Aspartic acid",
+                    "charge": "negative",
+                    "polarity": "polar",
+                    "hydrophobic": false
+                },
+                "osnramp5_properties": {
+                    "name": "Asparagine",
+                    "charge": "neutral",
+                    "polarity": "polar",
+                    "hydrophobic": false
+                },
+                "charge_conserved": false,
+                "polarity_conserved": true,
+                "hydrophobicity_conserved": true
+            }
+        },
+        {
+            "metal_residue": 501,
+            "metal": "MN",
+            "reference_position": 59,
+            "reference_residue": "ASN",
+            "osnramp5_position": 101,
+            "osnramp5_residue": "V",
+            "mapping_status": "mapped",
+            "residue_relationship": "different",
+            "conservation": {
+                "reference_residue_1letter": "N",
+                "classification": "chemically_different",
+                "reference_properties": {
+                    "name": "Asparagine",
+                    "charge": "neutral",
+                    "polarity": "polar",
+                    "hydrophobic": false
+                },
+                "osnramp5_properties": {
+                    "name": "Valine",
+                    "charge": "neutral",
+                    "polarity": "nonpolar",
+                    "hydrophobic": true
+                },
+                "charge_conserved": true,
+                "polarity_conserved": false,
+                "hydrophobicity_conserved": false
+            }
+        },
+        {
+            "metal_residue": 501,
+            "metal": "MN",
+            "reference_position": 230,
+            "reference_residue": "MET",
+            "osnramp5_position": 273,
+            "osnramp5_residue": "L",
+            "mapping_status": "mapped",
+            "residue_relationship": "different",
+            "conservation": {
+                "reference_residue_1letter": "M",
+                "classification": "conservative_substitution",
+                "reference_properties": {
+                    "name": "Methionine",
+                    "charge": "neutral",
+                    "polarity": "nonpolar",
+                    "hydrophobic": true
+                },
+                "osnramp5_properties": {
+                    "name": "Leucine",
+                    "charge": "neutral",
+                    "polarity": "nonpolar",
+                    "hydrophobic": true
+                },
+                "charge_conserved": true,
+                "polarity_conserved": true,
+                "hydrophobicity_conserved": true
+            }
+        },
+        {
+            "metal_residue": 502,
+            "metal": "MN",
+            "reference_position": 287,
+            "reference_residue": "HIS",
+            "osnramp5_position": 337,
+            "osnramp5_residue": "Q",
+            "mapping_status": "mapped",
+            "residue_relationship": "different",
+            "conservation": {
+                "reference_residue_1letter": "H",
+                "classification": "partially_conserved",
+                "reference_properties": {
+                    "name": "Histidine",
+                    "charge": "positive/neutral",
+                    "polarity": "polar",
+                    "hydrophobic": false
+                },
+                "osnramp5_properties": {
+                    "name": "Glutamine",
+                    "charge": "neutral",
+                    "polarity": "polar",
+                    "hydrophobic": false
+                },
+                "charge_conserved": false,
+                "polarity_conserved": true,
+                "hydrophobicity_conserved": true
+            }
+        }
+    ],
+    "interpretation": "Reference residues located near bound manganese in the 8E6N NRAMP/MntH structure were mapped onto OsNRAMP5 through sequence alignment and compared for biochemical property conservation. Identical or chemically similar substitutions indicate conservation of selected amino-acid properties, whereas chemically different substitutions indicate sequence divergence. This analysis does not by itself establish metal coordination or functional equivalence in OsNRAMP5."
+}
