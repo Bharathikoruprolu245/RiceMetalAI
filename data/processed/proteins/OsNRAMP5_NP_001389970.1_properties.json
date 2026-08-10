@@ -1,0 +1,61 @@
+{
+    "protein": {
+        "accession": "NP_001389970.1",
+        "gene": "OsNRAMP5",
+        "ncbi_gene_id": "4342859",
+        "organism": "Oryza sativa Japonica Group",
+        "source_file": "data/sequences/proteins/OsNRAMP5_NP_001389970.1.fasta"
+    },
+    "properties": {
+        "sequence_length_aa": 538,
+        "molecular_weight_da": 58497.18,
+        "theoretical_pI": 6.763,
+        "aromaticity": 0.0967,
+        "instability_index": 29.557,
+        "gravy": 0.5881,
+        "amino_acid_counts": {
+            "A": 58,
+            "C": 5,
+            "D": 27,
+            "E": 19,
+            "F": 30,
+            "G": 38,
+            "H": 9,
+            "I": 46,
+            "K": 25,
+            "L": 76,
+            "M": 14,
+            "N": 15,
+            "P": 21,
+            "Q": 9,
+            "R": 20,
+            "S": 44,
+            "T": 18,
+            "V": 42,
+            "W": 8,
+            "Y": 14
+        },
+        "amino_acid_percentage": {
+            "A": 10.781,
+            "C": 0.929,
+            "D": 5.019,
+            "E": 3.532,
+            "F": 5.576,
+            "G": 7.063,
+            "H": 1.673,
+            "I": 8.55,
+            "K": 4.647,
+            "L": 14.126,
+            "M": 2.602,
+            "N": 2.788,
+            "P": 3.903,
+            "Q": 1.673,
+            "R": 3.717,
+            "S": 8.178,
+            "T": 3.346,
+            "V": 7.807,
+            "W": 1.487,
+            "Y": 2.602
+        }
+    }
+}
