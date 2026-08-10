@@ -1,0 +1,131 @@
+LOCUS       NP_001389970             538 aa            linear   PLN 30-APR-2025
+DEFINITION  metal transporter Nramp5 [Oryza sativa Japonica Group].
+ACCESSION   NP_001389970
+VERSION     NP_001389970.1
+KEYWORDS    RefSeq.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; BOP
+            clade; Oryzoideae; Oryzeae; Oryzinae; Oryza; Oryza sativa.
+DBSOURCE    REFSEQ: accession NM_001403041.1
+REFERENCE   1  (residues 1 to 538)
+  AUTHORS   Ishikawa,S., Ishimaru,Y., Igura,M., Kuramata,M., Abe,T., Senoura,T.,
+            Hase,Y., Arao,T., Nishizawa,N.K. and Nakanishi,H.
+  TITLE     Ion-beam irradiation, gene identification, and marker-assisted
+            breeding in the development of low-cadmium rice
+  JOURNAL   Proc Natl Acad Sci U S A 109 (47), 19166-19171 (2012)
+   PUBMED   23132948
+  REMARK    Erratum:[Proc Natl Acad Sci U S A. 2018 May 22;115(21):E4950-E4951.
+            doi: 10.1073/pnas.1806782115. PMID: 29760062]
+REFERENCE   2  (residues 1 to 538)
+  AUTHORS   Sasaki,A., Yamaji,N., Yokosho,K. and Ma,J.F.
+  TITLE     Nramp5 is a major transporter responsible for manganese and cadmium
+            uptake in rice
+  JOURNAL   Plant Cell 24 (5), 2155-2167 (2012)
+   PUBMED   22589467
+REFERENCE   3  (residues 1 to 538)
+  AUTHORS   Kikuchi,S., Satoh,K., Nagata,T., Kawagashira,N., Doi,K.,
+            Kishimoto,N., Yazaki,J., Ishikawa,M., Yamada,H., Ooka,H., Hotta,I.,
+            Kojima,K., Namiki,T., Ohneda,E., Yahagi,W., Suzuki,K., Li,C.J.,
+            Ohtsuki,K., Shishiki,T., Otomo,Y., Murakami,K., Iida,Y., Sugano,S.,
+            Fujimura,T., Suzuki,Y., Tsunoda,Y., Kurosaki,T., Kodama,T.,
+            Masuda,H., Kobayashi,M., Xie,Q., Lu,M., Narikawa,R., Sugiyama,A.,
+            Mizuno,K., Yokomizo,S., Niikura,J., Ikeda,R., Ishibiki,J.,
+            Kawamata,M., Yoshimura,A., Miura,J., Kusumegi,T., Oka,M., Ryu,R.,
+            Ueda,M., Matsubara,K., Kawai,J., Carninci,P., Adachi,J., Aizawa,K.,
+            Arakawa,T., Fukuda,S., Hara,A., Hashizume,W., Hayatsu,N.,
+            Imotani,K., Ishii,Y., Itoh,M., Kagawa,I., Kondo,S., Konno,H.,
+            Miyazaki,A., Osato,N., Ota,Y., Saito,R., Sasaki,D., Sato,K.,
+            Shibata,K., Shinagawa,A., Shiraki,T., Yoshino,M., Hayashizaki,Y. and
+            Yasunishi,A.
+  CONSRTM   Rice Full-Length cDNA Consortium; National Institute of
+            Agrobiological Sciences Rice Full-Length cDNA Project Team;
+            Foundation of Advancement of International Science Genome Sequencing
+            & Analysis Group; RIKEN
+  TITLE     Collection, mapping, and annotation of over 28,000 cDNA clones from
+            japonica rice
+  JOURNAL   Science 301 (5631), 376-379 (2003)
+   PUBMED   12869764
+  REMARK    Erratum:[Science. 2003 Sep;301(5641):1849]
+COMMENT     ##Evidence-Data-START##
+            Transcript exon combination :: AK070788.1, AB690551.1 [ECO:0000332]
+            RNAseq introns :: mixed sample support SAMN37494772, SAMN37494773
+            [ECO:0006172]
+            ##Evidence-Data-END##
+            VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            JG458927.1, CI768941.1, AB698459.1, CI257642.1 and CI538753.1.
+            On Mar 27, 2022 this sequence version replaced XP_015645014.1.
+FEATURES             Location/Qualifiers
+     source          1..538
+                     /organism="Oryza sativa Japonica Group"
+                     /db_xref="taxon:39947"
+                     /chromosome="7"
+                     /map="7"
+     Protein         1..538
+                     /product="metal transporter Nramp5"
+                     /note="putative Nramp1 protein; Nramp metal transporter;
+                     LOC_Os07g15370"
+                     /calculated_mol_wt="58367"
+     Region          39..455
+                     /region_name="SLC5-6-like_sbd"
+                     /note="Solute carrier families 5 and 6-like; solute binding
+                     domain; cl00456"
+                     /db_xref="CDD:444915"
+     Site            44..64
+                     /site_type="transmembrane region"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+     Site            77..97
+                     /site_type="transmembrane region"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+     Site            118..138
+                     /site_type="transmembrane region"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+     Site            140..160
+                     /site_type="transmembrane region"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+     Site            181..201
+                     /site_type="transmembrane region"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+     Site            227..247
+                     /site_type="transmembrane region"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+     Site            264..284
+                     /site_type="transmembrane region"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+     Site            324..346
+                     /site_type="transmembrane region"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+     Site            365..385
+                     /site_type="transmembrane region"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+     Site            391..411
+                     /site_type="transmembrane region"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+     Site            427..447
+                     /site_type="transmembrane region"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+     Site            467..487
+                     /site_type="transmembrane region"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+     Region          518..538
+                     /region_name="Disordered.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+     CDS             1..538
+                     /gene="LOC4342859"
+                     /gene_synonym="NRAMP5; OJ1057_E05.110; OsNramp5"
+                     /coded_by="NM_001403041.1:140..1756"
+                     /db_xref="GeneID:4342859"
+ORIGIN
+        1 meieresser gsiswrasaa hdqdakklda ddqllmkepa wkrflahvgp gfmvslayld
+       61 pgnletdlqa ganhryellw viliglifal iiqslaanlg vvtgrhlaei ckseypkfvk
+      121 iflwllaela viaadipevi gtafafnilf hipvwvgvli tgtstllllg lqkygvrkle
+      181 flismlvfvm aacffgelsi vkppakevmk glfiprlngd gatadaiall galvmphnlf
+      241 lhsalvlsrk tpasvrgikd gcrfflyesg falfvallin iavvsvsgta cssanlsqed
+      301 adkcanlsld tssfllknvl gkssaivygv allasgqsst itgtyagqyi mqgfldirmr
+      361 kwlrnlmtrt iaiapslivs iiggsrgagr liiiasmils felpfalipl lkfssskskm
+      421 gphknsiyii vfswflglli iginmyflst sfvgwlihnd lpkyanvlvg aavfpfmlvy
+      481 ivavvyltir kdsvvtfvad sslaavvdae kadagdlavd ddeplpyrdd ladiplpr
+//
