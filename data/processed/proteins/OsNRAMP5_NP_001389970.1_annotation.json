@@ -1,0 +1,118 @@
+{
+    "protein": {
+        "accession": "NP_001389970.1",
+        "gene": "OsNRAMP5",
+        "description": "metal transporter Nramp5 [Oryza sativa Japonica Group]",
+        "organism": "Oryza sativa Japonica Group",
+        "sequence_length_aa": 538
+    },
+    "domains": [
+        {
+            "name": "SLC5-6-like_sbd",
+            "start": 39,
+            "end": 455,
+            "note": "Solute carrier families 5 and 6-like; solute binding domain; cl00456",
+            "db_xref": [
+                "CDD:444915"
+            ]
+        },
+        {
+            "name": "Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite",
+            "start": 518,
+            "end": 538,
+            "note": "propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)",
+            "db_xref": []
+        }
+    ],
+    "transmembrane_regions": [
+        {
+            "start": 44,
+            "end": 64,
+            "site_type": "transmembrane region",
+            "evidence": "propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+        },
+        {
+            "start": 77,
+            "end": 97,
+            "site_type": "transmembrane region",
+            "evidence": "propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+        },
+        {
+            "start": 118,
+            "end": 138,
+            "site_type": "transmembrane region",
+            "evidence": "propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+        },
+        {
+            "start": 140,
+            "end": 160,
+            "site_type": "transmembrane region",
+            "evidence": "propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+        },
+        {
+            "start": 181,
+            "end": 201,
+            "site_type": "transmembrane region",
+            "evidence": "propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+        },
+        {
+            "start": 227,
+            "end": 247,
+            "site_type": "transmembrane region",
+            "evidence": "propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+        },
+        {
+            "start": 264,
+            "end": 284,
+            "site_type": "transmembrane region",
+            "evidence": "propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+        },
+        {
+            "start": 324,
+            "end": 346,
+            "site_type": "transmembrane region",
+            "evidence": "propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+        },
+        {
+            "start": 365,
+            "end": 385,
+            "site_type": "transmembrane region",
+            "evidence": "propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+        },
+        {
+            "start": 391,
+            "end": 411,
+            "site_type": "transmembrane region",
+            "evidence": "propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+        },
+        {
+            "start": 427,
+            "end": 447,
+            "site_type": "transmembrane region",
+            "evidence": "propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+        },
+        {
+            "start": 467,
+            "end": 487,
+            "site_type": "transmembrane region",
+            "evidence": "propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+        }
+    ],
+    "disordered_regions": [
+        {
+            "start": 518,
+            "end": 538,
+            "evidence": "propagated from UniProtKB/Swiss-Prot (Q8H4H5.1)"
+        }
+    ],
+    "summary": {
+        "domain_count": 2,
+        "transmembrane_region_count": 12,
+        "disordered_region_count": 1
+    },
+    "source": {
+        "database": "NCBI RefSeq",
+        "accession": "NP_001389970.1",
+        "source_file": "data/raw/ncbi/OsNRAMP5_NP_001389970.1_protein_annotation.gb"
+    }
+}
