@@ -1,0 +1,18 @@
+{
+    "pdb_id": "8E6N",
+    "title": "X-ray structure of the Deinococcus radiodurans Nramp/MntH divalent transition metal transporter G223W mutant in an outward-open, manganese-bound state",
+    "organism": "Deinococcus radiodurans",
+    "protein": "Divalent metal cation transporter MntH",
+    "gene": "mntH",
+    "uniprot": "Q9RTP8",
+    "experimental_method": "X-ray diffraction",
+    "resolution_angstrom": 2.4,
+    "metal": "Manganese (II)",
+    "state": "outward-open",
+    "mutation": "G223W",
+    "chain": "A",
+    "modeled_residues": 398,
+    "deposited_residues": 411,
+    "source_database": "RCSB Protein Data Bank",
+    "source_url": "https://www.rcsb.org/structure/8E6N"
+}
