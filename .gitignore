@@ -1,1 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
 .env
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files
+*.h5
+*.pkl
+*.pt
+
+# Temporary data
+Docking/tmp/
+AlphaFold/cache/
