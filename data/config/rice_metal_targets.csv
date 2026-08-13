@@ -1,0 +1,2 @@
+gene,protein,ncbi_accession,uniprot_accession,sequence_length,metals,status
+OsNRAMP5,Metal transporter Nramp5,NP_001389970.1,Q8H4H5,538,"Cd;As;Pb;Hg;Cr;Zn;Cu;Fe;Ni",pilot_validated

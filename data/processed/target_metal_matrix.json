@@ -1,0 +1,193 @@
+{
+    "project": "RiceMetalAI",
+    "description": "Scalable matrix connecting configured rice target proteins with their configured metal species.",
+    "total_combinations": 9,
+    "combinations": [
+        {
+            "gene": "OsNRAMP5",
+            "protein": "Metal transporter Nramp5",
+            "ncbi_accession": "NP_001389970.1",
+            "uniprot_accession": "Q8H4H5",
+            "sequence_length": 538,
+            "target_status": "pilot_validated",
+            "metal": {
+                "symbol": "Cd",
+                "name": "Cadmium",
+                "atomic_number": 48,
+                "primary_ion": "Cd2+",
+                "oxidation_states": [
+                    2
+                ],
+                "category": "toxic_heavy_metal",
+                "essential_element": false
+            },
+            "analysis_status": "configured"
+        },
+        {
+            "gene": "OsNRAMP5",
+            "protein": "Metal transporter Nramp5",
+            "ncbi_accession": "NP_001389970.1",
+            "uniprot_accession": "Q8H4H5",
+            "sequence_length": 538,
+            "target_status": "pilot_validated",
+            "metal": {
+                "symbol": "As",
+                "name": "Arsenic",
+                "atomic_number": 33,
+                "primary_ion": "As3+",
+                "oxidation_states": [
+                    3,
+                    5
+                ],
+                "category": "toxic_metalloid",
+                "essential_element": false
+            },
+            "analysis_status": "configured"
+        },
+        {
+            "gene": "OsNRAMP5",
+            "protein": "Metal transporter Nramp5",
+            "ncbi_accession": "NP_001389970.1",
+            "uniprot_accession": "Q8H4H5",
+            "sequence_length": 538,
+            "target_status": "pilot_validated",
+            "metal": {
+                "symbol": "Pb",
+                "name": "Lead",
+                "atomic_number": 82,
+                "primary_ion": "Pb2+",
+                "oxidation_states": [
+                    2,
+                    4
+                ],
+                "category": "toxic_heavy_metal",
+                "essential_element": false
+            },
+            "analysis_status": "configured"
+        },
+        {
+            "gene": "OsNRAMP5",
+            "protein": "Metal transporter Nramp5",
+            "ncbi_accession": "NP_001389970.1",
+            "uniprot_accession": "Q8H4H5",
+            "sequence_length": 538,
+            "target_status": "pilot_validated",
+            "metal": {
+                "symbol": "Hg",
+                "name": "Mercury",
+                "atomic_number": 80,
+                "primary_ion": "Hg2+",
+                "oxidation_states": [
+                    1,
+                    2
+                ],
+                "category": "toxic_heavy_metal",
+                "essential_element": false
+            },
+            "analysis_status": "configured"
+        },
+        {
+            "gene": "OsNRAMP5",
+            "protein": "Metal transporter Nramp5",
+            "ncbi_accession": "NP_001389970.1",
+            "uniprot_accession": "Q8H4H5",
+            "sequence_length": 538,
+            "target_status": "pilot_validated",
+            "metal": {
+                "symbol": "Cr",
+                "name": "Chromium",
+                "atomic_number": 24,
+                "primary_ion": "Cr3+",
+                "oxidation_states": [
+                    3,
+                    6
+                ],
+                "category": "heavy_metal",
+                "essential_element": false
+            },
+            "analysis_status": "configured"
+        },
+        {
+            "gene": "OsNRAMP5",
+            "protein": "Metal transporter Nramp5",
+            "ncbi_accession": "NP_001389970.1",
+            "uniprot_accession": "Q8H4H5",
+            "sequence_length": 538,
+            "target_status": "pilot_validated",
+            "metal": {
+                "symbol": "Zn",
+                "name": "Zinc",
+                "atomic_number": 30,
+                "primary_ion": "Zn2+",
+                "oxidation_states": [
+                    2
+                ],
+                "category": "essential_metal",
+                "essential_element": true
+            },
+            "analysis_status": "configured"
+        },
+        {
+            "gene": "OsNRAMP5",
+            "protein": "Metal transporter Nramp5",
+            "ncbi_accession": "NP_001389970.1",
+            "uniprot_accession": "Q8H4H5",
+            "sequence_length": 538,
+            "target_status": "pilot_validated",
+            "metal": {
+                "symbol": "Cu",
+                "name": "Copper",
+                "atomic_number": 29,
+                "primary_ion": "Cu2+",
+                "oxidation_states": [
+                    1,
+                    2
+                ],
+                "category": "essential_metal",
+                "essential_element": true
+            },
+            "analysis_status": "configured"
+        },
+        {
+            "gene": "OsNRAMP5",
+            "protein": "Metal transporter Nramp5",
+            "ncbi_accession": "NP_001389970.1",
+            "uniprot_accession": "Q8H4H5",
+            "sequence_length": 538,
+            "target_status": "pilot_validated",
+            "metal": {
+                "symbol": "Fe",
+                "name": "Iron",
+                "atomic_number": 26,
+                "primary_ion": "Fe2+",
+                "oxidation_states": [
+                    2,
+                    3
+                ],
+                "category": "essential_metal",
+                "essential_element": true
+            },
+            "analysis_status": "configured"
+        },
+        {
+            "gene": "OsNRAMP5",
+            "protein": "Metal transporter Nramp5",
+            "ncbi_accession": "NP_001389970.1",
+            "uniprot_accession": "Q8H4H5",
+            "sequence_length": 538,
+            "target_status": "pilot_validated",
+            "metal": {
+                "symbol": "Ni",
+                "name": "Nickel",
+                "atomic_number": 28,
+                "primary_ion": "Ni2+",
+                "oxidation_states": [
+                    2
+                ],
+                "category": "essential_trace_metal",
+                "essential_element": true
+            },
+            "analysis_status": "configured"
+        }
+    ]
+}

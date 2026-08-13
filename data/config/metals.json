@@ -1,0 +1,92 @@
+{
+    "Cd": {
+        "name": "Cadmium",
+        "symbol": "Cd",
+        "atomic_number": 48,
+        "common_oxidation_states": [2],
+        "primary_ion": "Cd2+",
+        "docking_charge": 2,
+        "category": "toxic_heavy_metal",
+        "essential_element": false
+    },
+    "As": {
+        "name": "Arsenic",
+        "symbol": "As",
+        "atomic_number": 33,
+        "common_oxidation_states": [3, 5],
+        "primary_ion": "As3+",
+        "docking_charge": 3,
+        "category": "toxic_metalloid",
+        "essential_element": false
+    },
+    "Pb": {
+        "name": "Lead",
+        "symbol": "Pb",
+        "atomic_number": 82,
+        "common_oxidation_states": [2, 4],
+        "primary_ion": "Pb2+",
+        "docking_charge": 2,
+        "category": "toxic_heavy_metal",
+        "essential_element": false
+    },
+    "Hg": {
+        "name": "Mercury",
+        "symbol": "Hg",
+        "atomic_number": 80,
+        "common_oxidation_states": [1, 2],
+        "primary_ion": "Hg2+",
+        "docking_charge": 2,
+        "category": "toxic_heavy_metal",
+        "essential_element": false
+    },
+    "Cr": {
+        "name": "Chromium",
+        "symbol": "Cr",
+        "atomic_number": 24,
+        "common_oxidation_states": [3, 6],
+        "primary_ion": "Cr3+",
+        "docking_charge": 3,
+        "category": "heavy_metal",
+        "essential_element": false
+    },
+    "Zn": {
+        "name": "Zinc",
+        "symbol": "Zn",
+        "atomic_number": 30,
+        "common_oxidation_states": [2],
+        "primary_ion": "Zn2+",
+        "docking_charge": 2,
+        "category": "essential_metal",
+        "essential_element": true
+    },
+    "Cu": {
+        "name": "Copper",
+        "symbol": "Cu",
+        "atomic_number": 29,
+        "common_oxidation_states": [1, 2],
+        "primary_ion": "Cu2+",
+        "docking_charge": 2,
+        "category": "essential_metal",
+        "essential_element": true
+    },
+    "Fe": {
+        "name": "Iron",
+        "symbol": "Fe",
+        "atomic_number": 26,
+        "common_oxidation_states": [2, 3],
+        "primary_ion": "Fe2+",
+        "docking_charge": 2,
+        "category": "essential_metal",
+        "essential_element": true
+    },
+    "Ni": {
+        "name": "Nickel",
+        "symbol": "Ni",
+        "atomic_number": 28,
+        "common_oxidation_states": [2],
+        "primary_ion": "Ni2+",
+        "docking_charge": 2,
+        "category": "essential_trace_metal",
+        "essential_element": true
+    }
+}
