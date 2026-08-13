@@ -1,0 +1,235 @@
+{
+    "project": "RiceMetalAI",
+    "description": "Scalable matrix connecting configured rice target proteins with default chemical species for configured metals.",
+    "species_selection": {
+        "policy": "default_for_docking"
+    },
+    "total_combinations": 9,
+    "combinations": [
+        {
+            "gene": "OsNRAMP5",
+            "protein": "Metal transporter Nramp5",
+            "ncbi_accession": "NP_001389970.1",
+            "uniprot_accession": "Q8H4H5",
+            "sequence_length": 538,
+            "target_status": "pilot_validated",
+            "metal": {
+                "symbol": "Cd",
+                "name": "Cadmium",
+                "atomic_number": 48,
+                "category": "toxic_heavy_metal",
+                "essential_element": false
+            },
+            "species": {
+                "species_id": "Cd2+",
+                "name": "Cadmium ion",
+                "formula": "Cd2+",
+                "element": "Cd",
+                "oxidation_state": 2,
+                "charge": 2,
+                "species_type": "free_metal_ion"
+            },
+            "analysis_status": "configured"
+        },
+        {
+            "gene": "OsNRAMP5",
+            "protein": "Metal transporter Nramp5",
+            "ncbi_accession": "NP_001389970.1",
+            "uniprot_accession": "Q8H4H5",
+            "sequence_length": 538,
+            "target_status": "pilot_validated",
+            "metal": {
+                "symbol": "As",
+                "name": "Arsenic",
+                "atomic_number": 33,
+                "category": "toxic_metalloid",
+                "essential_element": false
+            },
+            "species": {
+                "species_id": "AsIII",
+                "name": "Arsenic(III)",
+                "formula": "As(III)",
+                "element": "As",
+                "oxidation_state": 3,
+                "charge": 0,
+                "species_type": "inorganic_arsenic"
+            },
+            "analysis_status": "configured"
+        },
+        {
+            "gene": "OsNRAMP5",
+            "protein": "Metal transporter Nramp5",
+            "ncbi_accession": "NP_001389970.1",
+            "uniprot_accession": "Q8H4H5",
+            "sequence_length": 538,
+            "target_status": "pilot_validated",
+            "metal": {
+                "symbol": "Pb",
+                "name": "Lead",
+                "atomic_number": 82,
+                "category": "toxic_heavy_metal",
+                "essential_element": false
+            },
+            "species": {
+                "species_id": "Pb2+",
+                "name": "Lead ion",
+                "formula": "Pb2+",
+                "element": "Pb",
+                "oxidation_state": 2,
+                "charge": 2,
+                "species_type": "free_metal_ion"
+            },
+            "analysis_status": "configured"
+        },
+        {
+            "gene": "OsNRAMP5",
+            "protein": "Metal transporter Nramp5",
+            "ncbi_accession": "NP_001389970.1",
+            "uniprot_accession": "Q8H4H5",
+            "sequence_length": 538,
+            "target_status": "pilot_validated",
+            "metal": {
+                "symbol": "Hg",
+                "name": "Mercury",
+                "atomic_number": 80,
+                "category": "toxic_heavy_metal",
+                "essential_element": false
+            },
+            "species": {
+                "species_id": "Hg2+",
+                "name": "Mercury(II) ion",
+                "formula": "Hg2+",
+                "element": "Hg",
+                "oxidation_state": 2,
+                "charge": 2,
+                "species_type": "free_metal_ion"
+            },
+            "analysis_status": "configured"
+        },
+        {
+            "gene": "OsNRAMP5",
+            "protein": "Metal transporter Nramp5",
+            "ncbi_accession": "NP_001389970.1",
+            "uniprot_accession": "Q8H4H5",
+            "sequence_length": 538,
+            "target_status": "pilot_validated",
+            "metal": {
+                "symbol": "Cr",
+                "name": "Chromium",
+                "atomic_number": 24,
+                "category": "heavy_metal",
+                "essential_element": false
+            },
+            "species": {
+                "species_id": "CrIII",
+                "name": "Chromium(III)",
+                "formula": "Cr3+",
+                "element": "Cr",
+                "oxidation_state": 3,
+                "charge": 3,
+                "species_type": "free_metal_ion"
+            },
+            "analysis_status": "configured"
+        },
+        {
+            "gene": "OsNRAMP5",
+            "protein": "Metal transporter Nramp5",
+            "ncbi_accession": "NP_001389970.1",
+            "uniprot_accession": "Q8H4H5",
+            "sequence_length": 538,
+            "target_status": "pilot_validated",
+            "metal": {
+                "symbol": "Zn",
+                "name": "Zinc",
+                "atomic_number": 30,
+                "category": "essential_metal",
+                "essential_element": true
+            },
+            "species": {
+                "species_id": "Zn2+",
+                "name": "Zinc ion",
+                "formula": "Zn2+",
+                "element": "Zn",
+                "oxidation_state": 2,
+                "charge": 2,
+                "species_type": "free_metal_ion"
+            },
+            "analysis_status": "configured"
+        },
+        {
+            "gene": "OsNRAMP5",
+            "protein": "Metal transporter Nramp5",
+            "ncbi_accession": "NP_001389970.1",
+            "uniprot_accession": "Q8H4H5",
+            "sequence_length": 538,
+            "target_status": "pilot_validated",
+            "metal": {
+                "symbol": "Cu",
+                "name": "Copper",
+                "atomic_number": 29,
+                "category": "essential_metal",
+                "essential_element": true
+            },
+            "species": {
+                "species_id": "Cu2+",
+                "name": "Copper(II) ion",
+                "formula": "Cu2+",
+                "element": "Cu",
+                "oxidation_state": 2,
+                "charge": 2,
+                "species_type": "free_metal_ion"
+            },
+            "analysis_status": "configured"
+        },
+        {
+            "gene": "OsNRAMP5",
+            "protein": "Metal transporter Nramp5",
+            "ncbi_accession": "NP_001389970.1",
+            "uniprot_accession": "Q8H4H5",
+            "sequence_length": 538,
+            "target_status": "pilot_validated",
+            "metal": {
+                "symbol": "Fe",
+                "name": "Iron",
+                "atomic_number": 26,
+                "category": "essential_metal",
+                "essential_element": true
+            },
+            "species": {
+                "species_id": "Fe2+",
+                "name": "Iron(II) ion",
+                "formula": "Fe2+",
+                "element": "Fe",
+                "oxidation_state": 2,
+                "charge": 2,
+                "species_type": "free_metal_ion"
+            },
+            "analysis_status": "configured"
+        },
+        {
+            "gene": "OsNRAMP5",
+            "protein": "Metal transporter Nramp5",
+            "ncbi_accession": "NP_001389970.1",
+            "uniprot_accession": "Q8H4H5",
+            "sequence_length": 538,
+            "target_status": "pilot_validated",
+            "metal": {
+                "symbol": "Ni",
+                "name": "Nickel",
+                "atomic_number": 28,
+                "category": "essential_trace_metal",
+                "essential_element": true
+            },
+            "species": {
+                "species_id": "Ni2+",
+                "name": "Nickel(II) ion",
+                "formula": "Ni2+",
+                "element": "Ni",
+                "oxidation_state": 2,
+                "charge": 2,
+                "species_type": "free_metal_ion"
+            },
+            "analysis_status": "configured"
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "Cd": [
+        {
+            "species_id": "Cd2+",
+            "name": "Cadmium ion",
+            "formula": "Cd2+",
+            "element": "Cd",
+            "oxidation_state": 2,
+            "charge": 2,
+            "species_type": "free_metal_ion",
+            "default_for_docking": true
+        }
+    ],
+    "As": [
+        {
+            "species_id": "AsIII",
+            "name": "Arsenic(III)",
+            "formula": "As(III)",
+            "element": "As",
+            "oxidation_state": 3,
+            "charge": 0,
+            "species_type": "inorganic_arsenic",
+            "default_for_docking": true
+        }
+    ],
+    "Pb": [
+        {
+            "species_id": "Pb2+",
+            "name": "Lead ion",
+            "formula": "Pb2+",
+            "element": "Pb",
+            "oxidation_state": 2,
+            "charge": 2,
+            "species_type": "free_metal_ion",
+            "default_for_docking": true
+        }
+    ],
+    "Hg": [
+        {
+            "species_id": "Hg2+",
+            "name": "Mercury(II) ion",
+            "formula": "Hg2+",
+            "element": "Hg",
+            "oxidation_state": 2,
+            "charge": 2,
+            "species_type": "free_metal_ion",
+            "default_for_docking": true
+        }
+    ],
+    "Cr": [
+        {
+            "species_id": "CrIII",
+            "name": "Chromium(III)",
+            "formula": "Cr3+",
+            "element": "Cr",
+            "oxidation_state": 3,
+            "charge": 3,
+            "species_type": "free_metal_ion",
+            "default_for_docking": true
+        },
+        {
+            "species_id": "CrVI",
+            "name": "Chromium(VI)",
+            "formula": "Cr(VI)",
+            "element": "Cr",
+            "oxidation_state": 6,
+            "charge": 0,
+            "species_type": "oxoanion_state",
+            "default_for_docking": false
+        }
+    ],
+    "Zn": [
+        {
+            "species_id": "Zn2+",
+            "name": "Zinc ion",
+            "formula": "Zn2+",
+            "element": "Zn",
+            "oxidation_state": 2,
+            "charge": 2,
+            "species_type": "free_metal_ion",
+            "default_for_docking": true
+        }
+    ],
+    "Cu": [
+        {
+            "species_id": "Cu2+",
+            "name": "Copper(II) ion",
+            "formula": "Cu2+",
+            "element": "Cu",
+            "oxidation_state": 2,
+            "charge": 2,
+            "species_type": "free_metal_ion",
+            "default_for_docking": true
+        },
+        {
+            "species_id": "Cu1+",
+            "name": "Copper(I) ion",
+            "formula": "Cu+",
+            "element": "Cu",
+            "oxidation_state": 1,
+            "charge": 1,
+            "species_type": "free_metal_ion",
+            "default_for_docking": false
+        }
+    ],
+    "Fe": [
+        {
+            "species_id": "Fe2+",
+            "name": "Iron(II) ion",
+            "formula": "Fe2+",
+            "element": "Fe",
+            "oxidation_state": 2,
+            "charge": 2,
+            "species_type": "free_metal_ion",
+            "default_for_docking": true
+        },
+        {
+            "species_id": "Fe3+",
+            "name": "Iron(III) ion",
+            "formula": "Fe3+",
+            "element": "Fe",
+            "oxidation_state": 3,
+            "charge": 3,
+            "species_type": "free_metal_ion",
+            "default_for_docking": false
+        }
+    ],
+    "Ni": [
+        {
+            "species_id": "Ni2+",
+            "name": "Nickel(II) ion",
+            "formula": "Ni2+",
+            "element": "Ni",
+            "oxidation_state": 2,
+            "charge": 2,
+            "species_type": "free_metal_ion",
+            "default_for_docking": true
+        }
+    ]
+}
