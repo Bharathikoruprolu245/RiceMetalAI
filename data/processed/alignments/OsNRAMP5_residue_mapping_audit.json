@@ -1,0 +1,292 @@
+{
+    "project": "RiceMetalAI",
+    "gene": "OsNRAMP5",
+    "reference_structure": "8E6N",
+    "alphafold_model": "AF-Q8H4H5-F1-model_v6",
+    "purpose": "Audit residue numbering and coordinate consistency before molecular docking.",
+    "reference_sites": [
+        {
+            "reference_position": 53,
+            "reference_residue": "A",
+            "metal": "MN",
+            "metal_residue": 501
+        },
+        {
+            "reference_position": 56,
+            "reference_residue": "D",
+            "metal": "MN",
+            "metal_residue": 501
+        },
+        {
+            "reference_position": 59,
+            "reference_residue": "N",
+            "metal": "MN",
+            "metal_residue": 501
+        },
+        {
+            "reference_position": 230,
+            "reference_residue": "M",
+            "metal": "MN",
+            "metal_residue": 501
+        },
+        {
+            "reference_position": 287,
+            "reference_residue": "H",
+            "metal": "MN",
+            "metal_residue": 502
+        }
+    ],
+    "reference_sequence_validation": [
+        {
+            "position": 53,
+            "expected": "A",
+            "observed": "L",
+            "match": false,
+            "status": "mismatch"
+        },
+        {
+            "position": 56,
+            "expected": "D",
+            "observed": "N",
+            "match": false,
+            "status": "mismatch"
+        },
+        {
+            "position": 59,
+            "expected": "N",
+            "observed": "I",
+            "match": false,
+            "status": "mismatch"
+        },
+        {
+            "position": 230,
+            "expected": "M",
+            "observed": "M",
+            "match": true,
+            "status": "match"
+        },
+        {
+            "position": 287,
+            "expected": "H",
+            "observed": "L",
+            "match": false,
+            "status": "mismatch"
+        }
+    ],
+    "site_comparisons": [
+        {
+            "metal": "MN",
+            "metal_residue": 501,
+            "reference": {
+                "position": 53,
+                "residue": "A"
+            },
+            "alignment_mapping": {
+                "target_position": 95,
+                "target_residue": "L",
+                "target_sequence_check": {
+                    "position": 95,
+                    "observed": "L",
+                    "expected": null,
+                    "match": false,
+                    "status": "mismatch"
+                }
+            },
+            "mapping_file": {
+                "target_position": 95,
+                "target_residue": "L",
+                "target_sequence_check": {
+                    "position": 95,
+                    "observed": "L",
+                    "expected": null,
+                    "match": false,
+                    "status": "mismatch"
+                }
+            },
+            "alphafold": {
+                "position": 95,
+                "structure_residue": "L",
+                "structure_residue_3letter": "LEU",
+                "mean_plddt": 92.81,
+                "sequence_match": true
+            },
+            "consistency": {
+                "alignment_vs_mapping_file": true,
+                "mapping_to_alphafold": true
+            }
+        },
+        {
+            "metal": "MN",
+            "metal_residue": 501,
+            "reference": {
+                "position": 56,
+                "residue": "D"
+            },
+            "alignment_mapping": {
+                "target_position": 98,
+                "target_residue": "N",
+                "target_sequence_check": {
+                    "position": 98,
+                    "observed": "N",
+                    "expected": null,
+                    "match": false,
+                    "status": "mismatch"
+                }
+            },
+            "mapping_file": {
+                "target_position": 98,
+                "target_residue": "N",
+                "target_sequence_check": {
+                    "position": 98,
+                    "observed": "N",
+                    "expected": null,
+                    "match": false,
+                    "status": "mismatch"
+                }
+            },
+            "alphafold": {
+                "position": 98,
+                "structure_residue": "N",
+                "structure_residue_3letter": "ASN",
+                "mean_plddt": 91.62,
+                "sequence_match": true
+            },
+            "consistency": {
+                "alignment_vs_mapping_file": true,
+                "mapping_to_alphafold": true
+            }
+        },
+        {
+            "metal": "MN",
+            "metal_residue": 501,
+            "reference": {
+                "position": 59,
+                "residue": "N"
+            },
+            "alignment_mapping": {
+                "target_position": 101,
+                "target_residue": "V",
+                "target_sequence_check": {
+                    "position": 101,
+                    "observed": "V",
+                    "expected": null,
+                    "match": false,
+                    "status": "mismatch"
+                }
+            },
+            "mapping_file": {
+                "target_position": 101,
+                "target_residue": "V",
+                "target_sequence_check": {
+                    "position": 101,
+                    "observed": "V",
+                    "expected": null,
+                    "match": false,
+                    "status": "mismatch"
+                }
+            },
+            "alphafold": {
+                "position": 101,
+                "structure_residue": "V",
+                "structure_residue_3letter": "VAL",
+                "mean_plddt": 88.12,
+                "sequence_match": true
+            },
+            "consistency": {
+                "alignment_vs_mapping_file": true,
+                "mapping_to_alphafold": true
+            }
+        },
+        {
+            "metal": "MN",
+            "metal_residue": 501,
+            "reference": {
+                "position": 230,
+                "residue": "M"
+            },
+            "alignment_mapping": {
+                "target_position": 273,
+                "target_residue": "L",
+                "target_sequence_check": {
+                    "position": 273,
+                    "observed": "L",
+                    "expected": null,
+                    "match": false,
+                    "status": "mismatch"
+                }
+            },
+            "mapping_file": {
+                "target_position": 273,
+                "target_residue": "L",
+                "target_sequence_check": {
+                    "position": 273,
+                    "observed": "L",
+                    "expected": null,
+                    "match": false,
+                    "status": "mismatch"
+                }
+            },
+            "alphafold": {
+                "position": 273,
+                "structure_residue": "L",
+                "structure_residue_3letter": "LEU",
+                "mean_plddt": 93.94,
+                "sequence_match": true
+            },
+            "consistency": {
+                "alignment_vs_mapping_file": true,
+                "mapping_to_alphafold": true
+            }
+        },
+        {
+            "metal": "MN",
+            "metal_residue": 502,
+            "reference": {
+                "position": 287,
+                "residue": "H"
+            },
+            "alignment_mapping": {
+                "target_position": 337,
+                "target_residue": "Q",
+                "target_sequence_check": {
+                    "position": 337,
+                    "observed": "Q",
+                    "expected": null,
+                    "match": false,
+                    "status": "mismatch"
+                }
+            },
+            "mapping_file": {
+                "target_position": 337,
+                "target_residue": "Q",
+                "target_sequence_check": {
+                    "position": 337,
+                    "observed": "Q",
+                    "expected": null,
+                    "match": false,
+                    "status": "mismatch"
+                }
+            },
+            "alphafold": {
+                "position": 337,
+                "structure_residue": "Q",
+                "structure_residue_3letter": "GLN",
+                "mean_plddt": 87.69,
+                "sequence_match": true
+            },
+            "consistency": {
+                "alignment_vs_mapping_file": true,
+                "mapping_to_alphafold": true
+            }
+        }
+    ],
+    "summary": {
+        "total_reference_sites": 5,
+        "alignment_mapping_consistent": 5,
+        "alphafold_sequence_matches": 5,
+        "all_alignment_mappings_consistent": true,
+        "all_alphafold_positions_match_sequence": true
+    },
+    "final_status": "CONSISTENT",
+    "interpretation": "This audit compares the previously generated alignment and residue mapping against the OsNRAMP5 sequence and AlphaFold structure. It is a coordinate quality-control step and does not establish metal binding."
+}

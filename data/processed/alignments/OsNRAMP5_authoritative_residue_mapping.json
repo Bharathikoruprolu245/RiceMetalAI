@@ -1,0 +1,211 @@
+{
+    "project": "RiceMetalAI",
+    "purpose": "Authoritative residue-coordinate mapping for downstream structural analysis and molecular docking.",
+    "target": {
+        "gene": "OsNRAMP5",
+        "ncbi_accession": "NP_001389970.1",
+        "uniprot_accession": "Q8H4H5",
+        "sequence_length": 538
+    },
+    "reference": {
+        "structure": "8E6N",
+        "chain": "A",
+        "reference_sequence_length": 398,
+        "pdb_file": "data/structures/pdb/8E6N.pdb",
+        "reference_fasta": "data/sequences/reference/8E6N_chainA.fasta"
+    },
+    "alignment": {
+        "file": "data/processed/alignments/OsNRAMP5_vs_8E6N_alignment.json",
+        "method": "Biopython PairwiseAligner",
+        "mode": "global"
+    },
+    "mapping_principle": {
+        "step_1": "8E6N PDB residue number \u2192 8E6N continuous sequence index",
+        "step_2": "8E6N sequence index \u2192 OsNRAMP5 sequence position through global alignment",
+        "step_3": "OsNRAMP5 sequence position \u2192 AlphaFold residue position",
+        "important_note": "PDB residue numbers must not be treated as continuous sequence indices."
+    },
+    "sites": [
+        {
+            "metal": "MN",
+            "metal_residue": 501,
+            "reference": {
+                "pdb_residue_number": 53,
+                "pdb_residue": "ALA",
+                "expected_pdb_residue": "ALA",
+                "sequence_index": 15,
+                "sequence_residue": "A",
+                "sequence_match": true
+            },
+            "target": {
+                "gene": "OsNRAMP5",
+                "position": 57,
+                "residue": "A",
+                "sequence_residue": "A",
+                "sequence_match": true
+            },
+            "alphafold": {
+                "model": "AF-Q8H4H5-F1-model_v6",
+                "position": 57,
+                "residue": "A",
+                "residue_3letter": "ALA",
+                "mean_plddt": 88.44,
+                "sequence_match": true
+            },
+            "validation": {
+                "pdb_residue_valid": true,
+                "reference_sequence_valid": true,
+                "target_sequence_valid": true,
+                "alphafold_residue_valid": true,
+                "alphafold_sequence_valid": true,
+                "overall_status": "validated"
+            }
+        },
+        {
+            "metal": "MN",
+            "metal_residue": 501,
+            "reference": {
+                "pdb_residue_number": 56,
+                "pdb_residue": "ASP",
+                "expected_pdb_residue": "ASP",
+                "sequence_index": 18,
+                "sequence_residue": "D",
+                "sequence_match": true
+            },
+            "target": {
+                "gene": "OsNRAMP5",
+                "position": 60,
+                "residue": "D",
+                "sequence_residue": "D",
+                "sequence_match": true
+            },
+            "alphafold": {
+                "model": "AF-Q8H4H5-F1-model_v6",
+                "position": 60,
+                "residue": "D",
+                "residue_3letter": "ASP",
+                "mean_plddt": 91.75,
+                "sequence_match": true
+            },
+            "validation": {
+                "pdb_residue_valid": true,
+                "reference_sequence_valid": true,
+                "target_sequence_valid": true,
+                "alphafold_residue_valid": true,
+                "alphafold_sequence_valid": true,
+                "overall_status": "validated"
+            }
+        },
+        {
+            "metal": "MN",
+            "metal_residue": 501,
+            "reference": {
+                "pdb_residue_number": 59,
+                "pdb_residue": "ASN",
+                "expected_pdb_residue": "ASN",
+                "sequence_index": 21,
+                "sequence_residue": "N",
+                "sequence_match": true
+            },
+            "target": {
+                "gene": "OsNRAMP5",
+                "position": 63,
+                "residue": "N",
+                "sequence_residue": "N",
+                "sequence_match": true
+            },
+            "alphafold": {
+                "model": "AF-Q8H4H5-F1-model_v6",
+                "position": 63,
+                "residue": "N",
+                "residue_3letter": "ASN",
+                "mean_plddt": 91.94,
+                "sequence_match": true
+            },
+            "validation": {
+                "pdb_residue_valid": true,
+                "reference_sequence_valid": true,
+                "target_sequence_valid": true,
+                "alphafold_residue_valid": true,
+                "alphafold_sequence_valid": true,
+                "overall_status": "validated"
+            }
+        },
+        {
+            "metal": "MN",
+            "metal_residue": 501,
+            "reference": {
+                "pdb_residue_number": 230,
+                "pdb_residue": "MET",
+                "expected_pdb_residue": "MET",
+                "sequence_index": 192,
+                "sequence_residue": "M",
+                "sequence_match": true
+            },
+            "target": {
+                "gene": "OsNRAMP5",
+                "position": 235,
+                "residue": "M",
+                "sequence_residue": "M",
+                "sequence_match": true
+            },
+            "alphafold": {
+                "model": "AF-Q8H4H5-F1-model_v6",
+                "position": 235,
+                "residue": "M",
+                "residue_3letter": "MET",
+                "mean_plddt": 88.5,
+                "sequence_match": true
+            },
+            "validation": {
+                "pdb_residue_valid": true,
+                "reference_sequence_valid": true,
+                "target_sequence_valid": true,
+                "alphafold_residue_valid": true,
+                "alphafold_sequence_valid": true,
+                "overall_status": "validated"
+            }
+        },
+        {
+            "metal": "MN",
+            "metal_residue": 502,
+            "reference": {
+                "pdb_residue_number": 287,
+                "pdb_residue": "HIS",
+                "expected_pdb_residue": "HIS",
+                "sequence_index": 249,
+                "sequence_residue": "H",
+                "sequence_match": true
+            },
+            "target": {
+                "gene": "OsNRAMP5",
+                "position": 294,
+                "residue": "A",
+                "sequence_residue": "A",
+                "sequence_match": true
+            },
+            "alphafold": {
+                "model": "AF-Q8H4H5-F1-model_v6",
+                "position": 294,
+                "residue": "A",
+                "residue_3letter": "ALA",
+                "mean_plddt": 67.81,
+                "sequence_match": true
+            },
+            "validation": {
+                "pdb_residue_valid": true,
+                "reference_sequence_valid": true,
+                "target_sequence_valid": true,
+                "alphafold_residue_valid": true,
+                "alphafold_sequence_valid": true,
+                "overall_status": "validated"
+            }
+        }
+    ],
+    "summary": {
+        "total_sites": 5,
+        "validated_sites": 5,
+        "sites_requiring_review": 0
+    },
+    "interpretation": "This mapping establishes the coordinate relationship between experimentally numbered 8E6N residues, the extracted 8E6N sequence, the OsNRAMP5 sequence, and the OsNRAMP5 AlphaFold model. The mapping is a prerequisite for reliable downstream structural analysis and molecular docking."
+}
