@@ -1,0 +1,628 @@
+{
+    "target": {
+        "gene": "OsNRAMP5",
+        "uniprot": "Q8H4H5",
+        "ncbi_accession": "NP_001389970.1",
+        "structure": "AF-Q8H4H5-F1-model_v6",
+        "chain": "A",
+        "sequence_length_aa": 538
+    },
+    "analysis": {
+        "name": "Focused metal-binding pocket geometry",
+        "primary_candidates": [
+            60,
+            63,
+            235,
+            337
+        ],
+        "supporting_residues": [
+            57,
+            232
+        ],
+        "donor_neighbor_cutoff_angstrom": 6.0
+    },
+    "primary_candidate_residues": [
+        {
+            "position": 60,
+            "expected_residue": "D",
+            "structure_residue": "ASP",
+            "plddt": 91.75,
+            "residue_center": [
+                -0.025,
+                -3.805,
+                6.767
+            ],
+            "potential_donor_atoms": [
+                {
+                    "atom": "OD1",
+                    "coordinates": [
+                        -0.743,
+                        -3.011,
+                        5.587
+                    ]
+                },
+                {
+                    "atom": "OD2",
+                    "coordinates": [
+                        0.403,
+                        -1.305,
+                        6.369
+                    ]
+                }
+            ]
+        },
+        {
+            "position": 63,
+            "expected_residue": "N",
+            "structure_residue": "ASN",
+            "plddt": 91.94,
+            "residue_center": [
+                -3.849,
+                -3.528,
+                4.462
+            ],
+            "potential_donor_atoms": [
+                {
+                    "atom": "OD1",
+                    "coordinates": [
+                        -3.643,
+                        -2.444,
+                        2.544
+                    ]
+                },
+                {
+                    "atom": "ND2",
+                    "coordinates": [
+                        -1.602,
+                        -3.017,
+                        2.938
+                    ]
+                }
+            ]
+        },
+        {
+            "position": 235,
+            "expected_residue": "M",
+            "structure_residue": "MET",
+            "plddt": 88.5,
+            "residue_center": [
+                1.663,
+                1.235,
+                0.341
+            ],
+            "potential_donor_atoms": [
+                {
+                    "atom": "SD",
+                    "coordinates": [
+                        1.546,
+                        -0.321,
+                        2.77
+                    ]
+                }
+            ]
+        },
+        {
+            "position": 337,
+            "expected_residue": "Q",
+            "structure_residue": "GLN",
+            "plddt": 87.69,
+            "residue_center": [
+                7.62,
+                -6.611,
+                14.105
+            ],
+            "potential_donor_atoms": [
+                {
+                    "atom": "OE1",
+                    "coordinates": [
+                        9.109,
+                        -6.145,
+                        16.099
+                    ]
+                },
+                {
+                    "atom": "NE2",
+                    "coordinates": [
+                        7.027,
+                        -5.575,
+                        16.449
+                    ]
+                }
+            ]
+        }
+    ],
+    "potential_donor_atoms": [
+        {
+            "position": 60,
+            "residue": "ASP",
+            "atom": "OD1",
+            "coordinates": [
+                -0.743,
+                -3.011,
+                5.587
+            ]
+        },
+        {
+            "position": 60,
+            "residue": "ASP",
+            "atom": "OD2",
+            "coordinates": [
+                0.403,
+                -1.305,
+                6.369
+            ]
+        },
+        {
+            "position": 63,
+            "residue": "ASN",
+            "atom": "OD1",
+            "coordinates": [
+                -3.643,
+                -2.444,
+                2.544
+            ]
+        },
+        {
+            "position": 63,
+            "residue": "ASN",
+            "atom": "ND2",
+            "coordinates": [
+                -1.602,
+                -3.017,
+                2.938
+            ]
+        },
+        {
+            "position": 235,
+            "residue": "MET",
+            "atom": "SD",
+            "coordinates": [
+                1.546,
+                -0.321,
+                2.77
+            ]
+        },
+        {
+            "position": 337,
+            "residue": "GLN",
+            "atom": "OE1",
+            "coordinates": [
+                9.109,
+                -6.145,
+                16.099
+            ]
+        },
+        {
+            "position": 337,
+            "residue": "GLN",
+            "atom": "NE2",
+            "coordinates": [
+                7.027,
+                -5.575,
+                16.449
+            ]
+        }
+    ],
+    "donor_atom_centroid": [
+        1.728,
+        -3.117,
+        7.537
+    ],
+    "donor_geometry": [
+        {
+            "residue_position": 60,
+            "residue": "ASP",
+            "atom": "OD2",
+            "distance_from_donor_centroid_angstrom": 2.53
+        },
+        {
+            "residue_position": 60,
+            "residue": "ASP",
+            "atom": "OD1",
+            "distance_from_donor_centroid_angstrom": 3.15
+        },
+        {
+            "residue_position": 235,
+            "residue": "MET",
+            "atom": "SD",
+            "distance_from_donor_centroid_angstrom": 5.529
+        },
+        {
+            "residue_position": 63,
+            "residue": "ASN",
+            "atom": "ND2",
+            "distance_from_donor_centroid_angstrom": 5.679
+        },
+        {
+            "residue_position": 63,
+            "residue": "ASN",
+            "atom": "OD1",
+            "distance_from_donor_centroid_angstrom": 7.364
+        },
+        {
+            "residue_position": 337,
+            "residue": "GLN",
+            "atom": "NE2",
+            "distance_from_donor_centroid_angstrom": 10.656
+        },
+        {
+            "residue_position": 337,
+            "residue": "GLN",
+            "atom": "OE1",
+            "distance_from_donor_centroid_angstrom": 11.703
+        }
+    ],
+    "pairwise_donor_distances": [
+        {
+            "residue_1": 63,
+            "atom_1": "OD1",
+            "residue_2": 63,
+            "atom_2": "ND2",
+            "distance_angstrom": 2.156
+        },
+        {
+            "residue_1": 337,
+            "atom_1": "OE1",
+            "residue_2": 337,
+            "atom_2": "NE2",
+            "distance_angstrom": 2.187
+        },
+        {
+            "residue_1": 60,
+            "atom_1": "OD1",
+            "residue_2": 60,
+            "atom_2": "OD2",
+            "distance_angstrom": 2.199
+        },
+        {
+            "residue_1": 60,
+            "atom_1": "OD1",
+            "residue_2": 63,
+            "atom_2": "ND2",
+            "distance_angstrom": 2.785
+        },
+        {
+            "residue_1": 60,
+            "atom_1": "OD2",
+            "residue_2": 235,
+            "atom_2": "SD",
+            "distance_angstrom": 3.902
+        },
+        {
+            "residue_1": 63,
+            "atom_1": "ND2",
+            "residue_2": 235,
+            "atom_2": "SD",
+            "distance_angstrom": 4.148
+        },
+        {
+            "residue_1": 60,
+            "atom_1": "OD1",
+            "residue_2": 63,
+            "atom_2": "OD1",
+            "distance_angstrom": 4.242
+        },
+        {
+            "residue_1": 60,
+            "atom_1": "OD2",
+            "residue_2": 63,
+            "atom_2": "ND2",
+            "distance_angstrom": 4.327
+        },
+        {
+            "residue_1": 60,
+            "atom_1": "OD1",
+            "residue_2": 235,
+            "atom_2": "SD",
+            "distance_angstrom": 4.518
+        },
+        {
+            "residue_1": 63,
+            "atom_1": "OD1",
+            "residue_2": 235,
+            "atom_2": "SD",
+            "distance_angstrom": 5.611
+        },
+        {
+            "residue_1": 60,
+            "atom_1": "OD2",
+            "residue_2": 63,
+            "atom_2": "OD1",
+            "distance_angstrom": 5.683
+        },
+        {
+            "residue_1": 60,
+            "atom_1": "OD2",
+            "residue_2": 337,
+            "atom_2": "NE2",
+            "distance_angstrom": 12.795
+        },
+        {
+            "residue_1": 60,
+            "atom_1": "OD1",
+            "residue_2": 337,
+            "atom_2": "NE2",
+            "distance_angstrom": 13.599
+        },
+        {
+            "residue_1": 60,
+            "atom_1": "OD2",
+            "residue_2": 337,
+            "atom_2": "OE1",
+            "distance_angstrom": 13.925
+        },
+        {
+            "residue_1": 60,
+            "atom_1": "OD1",
+            "residue_2": 337,
+            "atom_2": "OE1",
+            "distance_angstrom": 14.744
+        },
+        {
+            "residue_1": 235,
+            "atom_1": "SD",
+            "residue_2": 337,
+            "atom_2": "NE2",
+            "distance_angstrom": 15.645
+        },
+        {
+            "residue_1": 63,
+            "atom_1": "ND2",
+            "residue_2": 337,
+            "atom_2": "NE2",
+            "distance_angstrom": 16.234
+        },
+        {
+            "residue_1": 235,
+            "atom_1": "SD",
+            "residue_2": 337,
+            "atom_2": "OE1",
+            "distance_angstrom": 16.395
+        },
+        {
+            "residue_1": 63,
+            "atom_1": "ND2",
+            "residue_2": 337,
+            "atom_2": "OE1",
+            "distance_angstrom": 17.255
+        },
+        {
+            "residue_1": 63,
+            "atom_1": "OD1",
+            "residue_2": 337,
+            "atom_2": "NE2",
+            "distance_angstrom": 17.805
+        },
+        {
+            "residue_1": 63,
+            "atom_1": "OD1",
+            "residue_2": 337,
+            "atom_2": "OE1",
+            "distance_angstrom": 18.975
+        }
+    ],
+    "supporting_residues": [
+        {
+            "position": 57,
+            "residue": "ALA",
+            "expected_residue": "ALA",
+            "plddt": 88.44,
+            "residue_center": [
+                2.957,
+                -4.111,
+                2.684
+            ]
+        },
+        {
+            "position": 232,
+            "residue": "ALA",
+            "expected_residue": "ALA",
+            "plddt": 85.12,
+            "residue_center": [
+                -4.598,
+                0.536,
+                1.124
+            ]
+        }
+    ],
+    "donor_neighborhood": [
+        {
+            "donor_residue": 60,
+            "donor_atom": "OD1",
+            "nearby_residues": [
+                {
+                    "position": 63,
+                    "residue": "ASN",
+                    "distance_angstrom": 3.616
+                },
+                {
+                    "position": 62,
+                    "residue": "GLY",
+                    "distance_angstrom": 3.961
+                },
+                {
+                    "position": 61,
+                    "residue": "PRO",
+                    "distance_angstrom": 4.775
+                },
+                {
+                    "position": 59,
+                    "residue": "LEU",
+                    "distance_angstrom": 4.837
+                },
+                {
+                    "position": 58,
+                    "residue": "TYR",
+                    "distance_angstrom": 4.871
+                },
+                {
+                    "position": 57,
+                    "residue": "ALA",
+                    "distance_angstrom": 5.115
+                }
+            ]
+        },
+        {
+            "donor_residue": 60,
+            "donor_atom": "OD2",
+            "nearby_residues": [
+                {
+                    "position": 62,
+                    "residue": "GLY",
+                    "distance_angstrom": 3.991
+                },
+                {
+                    "position": 61,
+                    "residue": "PRO",
+                    "distance_angstrom": 5.092
+                },
+                {
+                    "position": 63,
+                    "residue": "ASN",
+                    "distance_angstrom": 5.322
+                },
+                {
+                    "position": 57,
+                    "residue": "ALA",
+                    "distance_angstrom": 5.421
+                },
+                {
+                    "position": 134,
+                    "residue": "ALA",
+                    "distance_angstrom": 5.817
+                },
+                {
+                    "position": 137,
+                    "residue": "PRO",
+                    "distance_angstrom": 5.93
+                }
+            ]
+        },
+        {
+            "donor_residue": 63,
+            "donor_atom": "OD1",
+            "nearby_residues": [
+                {
+                    "position": 233,
+                    "residue": "LEU",
+                    "distance_angstrom": 3.665
+                },
+                {
+                    "position": 232,
+                    "residue": "ALA",
+                    "distance_angstrom": 3.805
+                },
+                {
+                    "position": 58,
+                    "residue": "TYR",
+                    "distance_angstrom": 5.086
+                },
+                {
+                    "position": 62,
+                    "residue": "GLY",
+                    "distance_angstrom": 5.634
+                }
+            ]
+        },
+        {
+            "donor_residue": 63,
+            "donor_atom": "ND2",
+            "nearby_residues": [
+                {
+                    "position": 58,
+                    "residue": "TYR",
+                    "distance_angstrom": 3.466
+                },
+                {
+                    "position": 233,
+                    "residue": "LEU",
+                    "distance_angstrom": 4.536
+                },
+                {
+                    "position": 57,
+                    "residue": "ALA",
+                    "distance_angstrom": 5.179
+                },
+                {
+                    "position": 60,
+                    "residue": "ASP",
+                    "distance_angstrom": 5.218
+                },
+                {
+                    "position": 59,
+                    "residue": "LEU",
+                    "distance_angstrom": 5.358
+                },
+                {
+                    "position": 232,
+                    "residue": "ALA",
+                    "distance_angstrom": 5.395
+                },
+                {
+                    "position": 62,
+                    "residue": "GLY",
+                    "distance_angstrom": 5.654
+                }
+            ]
+        },
+        {
+            "donor_residue": 235,
+            "donor_atom": "SD",
+            "nearby_residues": [
+                {
+                    "position": 57,
+                    "residue": "ALA",
+                    "distance_angstrom": 4.258
+                },
+                {
+                    "position": 58,
+                    "residue": "TYR",
+                    "distance_angstrom": 5.676
+                }
+            ]
+        },
+        {
+            "donor_residue": 337,
+            "donor_atom": "OE1",
+            "nearby_residues": [
+                {
+                    "position": 164,
+                    "residue": "SER",
+                    "distance_angstrom": 4.699
+                }
+            ]
+        },
+        {
+            "donor_residue": 337,
+            "donor_atom": "NE2",
+            "nearby_residues": [
+                {
+                    "position": 336,
+                    "residue": "GLY",
+                    "distance_angstrom": 5.107
+                },
+                {
+                    "position": 142,
+                    "residue": "THR",
+                    "distance_angstrom": 5.32
+                },
+                {
+                    "position": 164,
+                    "residue": "SER",
+                    "distance_angstrom": 5.616
+                },
+                {
+                    "position": 333,
+                    "residue": "LEU",
+                    "distance_angstrom": 5.85
+                },
+                {
+                    "position": 161,
+                    "residue": "THR",
+                    "distance_angstrom": 5.944
+                }
+            ]
+        }
+    ],
+    "interpretation": "The focused OsNRAMP5 pocket contains multiple candidate donor-bearing residues with measurable three-dimensional proximity. D60, N63, M235, and Q337 should therefore be prioritized for explicit metal interaction modeling. The donor centroid is only a geometric reference and is not an experimentally determined metal position."
+}
