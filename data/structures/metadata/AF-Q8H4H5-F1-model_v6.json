@@ -1,0 +1,14 @@
+{
+    "gene": "OsNRAMP5",
+    "uniprot_accession": "Q8H4H5",
+    "protein": "Metal transporter Nramp5",
+    "organism": "Oryza sativa Japonica Group",
+    "database": "AlphaFold Protein Structure Database",
+    "model": "AF-Q8H4H5-F1-model_v6",
+    "version": 6,
+    "model_file": "data/structures/predicted/AF-Q8H4H5-F1-model_v6.pdb",
+    "source_url": "https://alphafold.ebi.ac.uk/files/AF-Q8H4H5-F1-model_v6.pdb",
+    "structure_type": "AlphaFold predicted structure",
+    "experimental": false,
+    "note": "Computationally predicted protein structure. It should not be treated as an experimentally determined structure."
+}

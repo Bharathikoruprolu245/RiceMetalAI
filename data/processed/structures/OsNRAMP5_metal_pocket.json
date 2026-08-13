@@ -1,0 +1,1287 @@
+{
+    "target": {
+        "gene": "OsNRAMP5",
+        "uniprot": "Q8H4H5",
+        "ncbi_accession": "NP_001389970.1",
+        "sequence_length_aa": 538
+    },
+    "structure": {
+        "model": "AF-Q8H4H5-F1-model_v6",
+        "source": "AlphaFold Protein Structure Database",
+        "chain": "A",
+        "file": "data/structures/predicted/AF-Q8H4H5-F1-model_v6.pdb"
+    },
+    "candidate_definition": {
+        "residues": [
+            "A57",
+            "D60",
+            "N63",
+            "A232",
+            "M235",
+            "Q337"
+        ],
+        "source": "Mapped reference metal-associated residues and AlphaFold structural validation"
+    },
+    "analysis_method": {
+        "name": "Structural metal-pocket screening",
+        "nearby_residue_cutoff_angstrom": 6.0,
+        "donor_contact_cutoff_angstrom": 5.0,
+        "potential_donor_residues": [
+            "ASP",
+            "GLU",
+            "ASN",
+            "GLN",
+            "HIS",
+            "SER",
+            "THR",
+            "TYR",
+            "CYS",
+            "MET"
+        ],
+        "score_components": {
+            "chemical_environment": "potential metal-donor chemistry",
+            "structural_environment": "local residue density and AlphaFold pLDDT"
+        }
+    },
+    "candidate_pocket_center": {
+        "coordinate_system": "AlphaFold PDB coordinates",
+        "center_xyz_angstrom": [
+            0.577,
+            -2.692,
+            4.847
+        ]
+    },
+    "summary": {
+        "total_candidates": 6,
+        "high_evidence": 4,
+        "moderate_evidence": 2,
+        "low_evidence": 0,
+        "very_low_evidence": 0
+    },
+    "ranked_candidates": [
+        {
+            "position": 60,
+            "residue": "ASP",
+            "residue_1letter": "D",
+            "mean_plddt": 91.75,
+            "potential_donor_atoms": [
+                "OD1",
+                "OD2"
+            ],
+            "nearby_residues": [
+                {
+                    "position": 59,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 1.33,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "C",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 61,
+                    "residue_3letter": "PRO",
+                    "distance_angstrom": 1.343,
+                    "closest_candidate_atom": "C",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 63,
+                    "residue_3letter": "ASN",
+                    "distance_angstrom": 2.785,
+                    "closest_candidate_atom": "OD1",
+                    "closest_neighbor_atom": "ND2",
+                    "potential_donor_atoms": [
+                        "OD1",
+                        "ND2"
+                    ]
+                },
+                {
+                    "position": 64,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 2.957,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 57,
+                    "residue_3letter": "ALA",
+                    "distance_angstrom": 3.082,
+                    "closest_candidate_atom": "OD1",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 62,
+                    "residue_3letter": "GLY",
+                    "distance_angstrom": 3.179,
+                    "closest_candidate_atom": "C",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 56,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 3.261,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 335,
+                    "residue_3letter": "SER",
+                    "distance_angstrom": 3.281,
+                    "closest_candidate_atom": "C",
+                    "closest_neighbor_atom": "OG",
+                    "potential_donor_atoms": [
+                        "OG"
+                    ]
+                },
+                {
+                    "position": 339,
+                    "residue_3letter": "SER",
+                    "distance_angstrom": 3.347,
+                    "closest_candidate_atom": "CB",
+                    "closest_neighbor_atom": "OG",
+                    "potential_donor_atoms": [
+                        "OG"
+                    ]
+                },
+                {
+                    "position": 235,
+                    "residue_3letter": "MET",
+                    "distance_angstrom": 3.403,
+                    "closest_candidate_atom": "OD2",
+                    "closest_neighbor_atom": "CE",
+                    "potential_donor_atoms": [
+                        "SD"
+                    ]
+                },
+                {
+                    "position": 58,
+                    "residue_3letter": "TYR",
+                    "distance_angstrom": 3.64,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "C",
+                    "potential_donor_atoms": [
+                        "OH"
+                    ]
+                },
+                {
+                    "position": 137,
+                    "residue_3letter": "PRO",
+                    "distance_angstrom": 4.6,
+                    "closest_candidate_atom": "OD2",
+                    "closest_neighbor_atom": "CB",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 134,
+                    "residue_3letter": "ALA",
+                    "distance_angstrom": 4.996,
+                    "closest_candidate_atom": "OD2",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 65,
+                    "residue_3letter": "GLU",
+                    "distance_angstrom": 5.046,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": [
+                        "OE1",
+                        "OE2"
+                    ]
+                },
+                {
+                    "position": 138,
+                    "residue_3letter": "GLU",
+                    "distance_angstrom": 5.384,
+                    "closest_candidate_atom": "CB",
+                    "closest_neighbor_atom": "CG",
+                    "potential_donor_atoms": [
+                        "OE1",
+                        "OE2"
+                    ]
+                },
+                {
+                    "position": 336,
+                    "residue_3letter": "GLY",
+                    "distance_angstrom": 5.762,
+                    "closest_candidate_atom": "CA",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 232,
+                    "residue_3letter": "ALA",
+                    "distance_angstrom": 5.848,
+                    "closest_candidate_atom": "OD1",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 55,
+                    "residue_3letter": "SER",
+                    "distance_angstrom": 5.996,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": [
+                        "OG"
+                    ]
+                }
+            ],
+            "potential_donor_contacts": [
+                {
+                    "candidate_atom": "OD1",
+                    "neighbor_position": 63,
+                    "neighbor_residue": "ASN",
+                    "neighbor_atom": "ND2",
+                    "distance_angstrom": 2.785
+                },
+                {
+                    "candidate_atom": "OD2",
+                    "neighbor_position": 235,
+                    "neighbor_residue": "MET",
+                    "neighbor_atom": "SD",
+                    "distance_angstrom": 3.902
+                },
+                {
+                    "candidate_atom": "OD1",
+                    "neighbor_position": 63,
+                    "neighbor_residue": "ASN",
+                    "neighbor_atom": "OD1",
+                    "distance_angstrom": 4.242
+                },
+                {
+                    "candidate_atom": "OD2",
+                    "neighbor_position": 63,
+                    "neighbor_residue": "ASN",
+                    "neighbor_atom": "ND2",
+                    "distance_angstrom": 4.327
+                },
+                {
+                    "candidate_atom": "OD2",
+                    "neighbor_position": 339,
+                    "neighbor_residue": "SER",
+                    "neighbor_atom": "OG",
+                    "distance_angstrom": 4.342
+                },
+                {
+                    "candidate_atom": "OD1",
+                    "neighbor_position": 235,
+                    "neighbor_residue": "MET",
+                    "neighbor_atom": "SD",
+                    "distance_angstrom": 4.518
+                }
+            ],
+            "distance_from_candidate_center": 3.242,
+            "pocket_score": {
+                "chemical_score": 40,
+                "structural_score": 60,
+                "total_score": 100,
+                "evidence_level": "high"
+            },
+            "rank": 1
+        },
+        {
+            "position": 63,
+            "residue": "ASN",
+            "residue_1letter": "N",
+            "mean_plddt": 91.94,
+            "potential_donor_atoms": [
+                "OD1",
+                "ND2"
+            ],
+            "nearby_residues": [
+                {
+                    "position": 62,
+                    "residue_3letter": "GLY",
+                    "distance_angstrom": 1.338,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "C",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 64,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 1.34,
+                    "closest_candidate_atom": "C",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 60,
+                    "residue_3letter": "ASP",
+                    "distance_angstrom": 2.785,
+                    "closest_candidate_atom": "ND2",
+                    "closest_neighbor_atom": "OD1",
+                    "potential_donor_atoms": [
+                        "OD1",
+                        "OD2"
+                    ]
+                },
+                {
+                    "position": 57,
+                    "residue_3letter": "ALA",
+                    "distance_angstrom": 2.834,
+                    "closest_candidate_atom": "ND2",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 67,
+                    "residue_3letter": "ASP",
+                    "distance_angstrom": 2.859,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": [
+                        "OD1",
+                        "OD2"
+                    ]
+                },
+                {
+                    "position": 66,
+                    "residue_3letter": "THR",
+                    "distance_angstrom": 2.864,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "OG1",
+                    "potential_donor_atoms": [
+                        "OG1"
+                    ]
+                },
+                {
+                    "position": 232,
+                    "residue_3letter": "ALA",
+                    "distance_angstrom": 3.092,
+                    "closest_candidate_atom": "OD1",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 65,
+                    "residue_3letter": "GLU",
+                    "distance_angstrom": 3.283,
+                    "closest_candidate_atom": "C",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": [
+                        "OE1",
+                        "OE2"
+                    ]
+                },
+                {
+                    "position": 233,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 3.403,
+                    "closest_candidate_atom": "OD1",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 58,
+                    "residue_3letter": "TYR",
+                    "distance_angstrom": 3.466,
+                    "closest_candidate_atom": "ND2",
+                    "closest_neighbor_atom": "CA",
+                    "potential_donor_atoms": [
+                        "OH"
+                    ]
+                },
+                {
+                    "position": 61,
+                    "residue_3letter": "PRO",
+                    "distance_angstrom": 3.489,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "C",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 235,
+                    "residue_3letter": "MET",
+                    "distance_angstrom": 4.148,
+                    "closest_candidate_atom": "ND2",
+                    "closest_neighbor_atom": "SD",
+                    "potential_donor_atoms": [
+                        "SD"
+                    ]
+                },
+                {
+                    "position": 59,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 4.441,
+                    "closest_candidate_atom": "ND2",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 68,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 4.84,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 229,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 5.106,
+                    "closest_candidate_atom": "OD1",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 280,
+                    "residue_3letter": "ASN",
+                    "distance_angstrom": 5.352,
+                    "closest_candidate_atom": "CB",
+                    "closest_neighbor_atom": "ND2",
+                    "potential_donor_atoms": [
+                        "OD1",
+                        "ND2"
+                    ]
+                },
+                {
+                    "position": 234,
+                    "residue_3letter": "VAL",
+                    "distance_angstrom": 5.675,
+                    "closest_candidate_atom": "OD1",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": []
+                }
+            ],
+            "potential_donor_contacts": [
+                {
+                    "candidate_atom": "ND2",
+                    "neighbor_position": 60,
+                    "neighbor_residue": "ASP",
+                    "neighbor_atom": "OD1",
+                    "distance_angstrom": 2.785
+                },
+                {
+                    "candidate_atom": "ND2",
+                    "neighbor_position": 235,
+                    "neighbor_residue": "MET",
+                    "neighbor_atom": "SD",
+                    "distance_angstrom": 4.148
+                },
+                {
+                    "candidate_atom": "OD1",
+                    "neighbor_position": 66,
+                    "neighbor_residue": "THR",
+                    "neighbor_atom": "OG1",
+                    "distance_angstrom": 4.226
+                },
+                {
+                    "candidate_atom": "OD1",
+                    "neighbor_position": 60,
+                    "neighbor_residue": "ASP",
+                    "neighbor_atom": "OD1",
+                    "distance_angstrom": 4.242
+                },
+                {
+                    "candidate_atom": "ND2",
+                    "neighbor_position": 60,
+                    "neighbor_residue": "ASP",
+                    "neighbor_atom": "OD2",
+                    "distance_angstrom": 4.327
+                }
+            ],
+            "distance_from_candidate_center": 4.963,
+            "pocket_score": {
+                "chemical_score": 30,
+                "structural_score": 60,
+                "total_score": 90,
+                "evidence_level": "high"
+            },
+            "rank": 2
+        },
+        {
+            "position": 235,
+            "residue": "MET",
+            "residue_1letter": "M",
+            "mean_plddt": 88.5,
+            "potential_donor_atoms": [
+                "SD"
+            ],
+            "nearby_residues": [
+                {
+                    "position": 234,
+                    "residue_3letter": "VAL",
+                    "distance_angstrom": 1.334,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "C",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 236,
+                    "residue_3letter": "PRO",
+                    "distance_angstrom": 1.342,
+                    "closest_candidate_atom": "C",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 233,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 3.164,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 238,
+                    "residue_3letter": "ASN",
+                    "distance_angstrom": 3.316,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "CB",
+                    "potential_donor_atoms": [
+                        "OD1",
+                        "ND2"
+                    ]
+                },
+                {
+                    "position": 57,
+                    "residue_3letter": "ALA",
+                    "distance_angstrom": 3.332,
+                    "closest_candidate_atom": "SD",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 60,
+                    "residue_3letter": "ASP",
+                    "distance_angstrom": 3.403,
+                    "closest_candidate_atom": "CE",
+                    "closest_neighbor_atom": "OD2",
+                    "potential_donor_atoms": [
+                        "OD1",
+                        "OD2"
+                    ]
+                },
+                {
+                    "position": 237,
+                    "residue_3letter": "HIS",
+                    "distance_angstrom": 3.516,
+                    "closest_candidate_atom": "C",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": [
+                        "ND1",
+                        "NE2"
+                    ]
+                },
+                {
+                    "position": 232,
+                    "residue_3letter": "ALA",
+                    "distance_angstrom": 3.561,
+                    "closest_candidate_atom": "CG",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 399,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 3.653,
+                    "closest_candidate_atom": "CE",
+                    "closest_neighbor_atom": "CD1",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 239,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 3.78,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 63,
+                    "residue_3letter": "ASN",
+                    "distance_angstrom": 4.148,
+                    "closest_candidate_atom": "SD",
+                    "closest_neighbor_atom": "ND2",
+                    "potential_donor_atoms": [
+                        "OD1",
+                        "ND2"
+                    ]
+                },
+                {
+                    "position": 134,
+                    "residue_3letter": "ALA",
+                    "distance_angstrom": 4.207,
+                    "closest_candidate_atom": "CE",
+                    "closest_neighbor_atom": "CB",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 403,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 4.605,
+                    "closest_candidate_atom": "C",
+                    "closest_neighbor_atom": "CD1",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 93,
+                    "residue_3letter": "GLN",
+                    "distance_angstrom": 4.67,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "NE2",
+                    "potential_donor_atoms": [
+                        "OE1",
+                        "NE2"
+                    ]
+                },
+                {
+                    "position": 231,
+                    "residue_3letter": "GLY",
+                    "distance_angstrom": 5.064,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 58,
+                    "residue_3letter": "TYR",
+                    "distance_angstrom": 5.099,
+                    "closest_candidate_atom": "SD",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": [
+                        "OH"
+                    ]
+                },
+                {
+                    "position": 339,
+                    "residue_3letter": "SER",
+                    "distance_angstrom": 5.95,
+                    "closest_candidate_atom": "CE",
+                    "closest_neighbor_atom": "OG",
+                    "potential_donor_atoms": [
+                        "OG"
+                    ]
+                }
+            ],
+            "potential_donor_contacts": [
+                {
+                    "candidate_atom": "SD",
+                    "neighbor_position": 60,
+                    "neighbor_residue": "ASP",
+                    "neighbor_atom": "OD2",
+                    "distance_angstrom": 3.902
+                },
+                {
+                    "candidate_atom": "SD",
+                    "neighbor_position": 63,
+                    "neighbor_residue": "ASN",
+                    "neighbor_atom": "ND2",
+                    "distance_angstrom": 4.148
+                },
+                {
+                    "candidate_atom": "SD",
+                    "neighbor_position": 237,
+                    "neighbor_residue": "HIS",
+                    "neighbor_atom": "NE2",
+                    "distance_angstrom": 4.316
+                },
+                {
+                    "candidate_atom": "SD",
+                    "neighbor_position": 237,
+                    "neighbor_residue": "HIS",
+                    "neighbor_atom": "ND1",
+                    "distance_angstrom": 4.516
+                },
+                {
+                    "candidate_atom": "SD",
+                    "neighbor_position": 60,
+                    "neighbor_residue": "ASP",
+                    "neighbor_atom": "OD1",
+                    "distance_angstrom": 4.518
+                }
+            ],
+            "distance_from_candidate_center": 7.256,
+            "pocket_score": {
+                "chemical_score": 30,
+                "structural_score": 55,
+                "total_score": 85,
+                "evidence_level": "high"
+            },
+            "rank": 3
+        },
+        {
+            "position": 337,
+            "residue": "GLN",
+            "residue_1letter": "Q",
+            "mean_plddt": 87.69,
+            "potential_donor_atoms": [
+                "OE1",
+                "NE2"
+            ],
+            "nearby_residues": [
+                {
+                    "position": 338,
+                    "residue_3letter": "SER",
+                    "distance_angstrom": 1.334,
+                    "closest_candidate_atom": "C",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": [
+                        "OG"
+                    ]
+                },
+                {
+                    "position": 336,
+                    "residue_3letter": "GLY",
+                    "distance_angstrom": 1.34,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "C",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 333,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 2.993,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 341,
+                    "residue_3letter": "ILE",
+                    "distance_angstrom": 3.362,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 142,
+                    "residue_3letter": "THR",
+                    "distance_angstrom": 3.377,
+                    "closest_candidate_atom": "NE2",
+                    "closest_neighbor_atom": "CG2",
+                    "potential_donor_atoms": [
+                        "OG1"
+                    ]
+                },
+                {
+                    "position": 335,
+                    "residue_3letter": "SER",
+                    "distance_angstrom": 3.389,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "C",
+                    "potential_donor_atoms": [
+                        "OG"
+                    ]
+                },
+                {
+                    "position": 339,
+                    "residue_3letter": "SER",
+                    "distance_angstrom": 3.426,
+                    "closest_candidate_atom": "C",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": [
+                        "OG"
+                    ]
+                },
+                {
+                    "position": 340,
+                    "residue_3letter": "THR",
+                    "distance_angstrom": 3.444,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "CB",
+                    "potential_donor_atoms": [
+                        "OG1"
+                    ]
+                },
+                {
+                    "position": 334,
+                    "residue_3letter": "ALA",
+                    "distance_angstrom": 3.491,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 164,
+                    "residue_3letter": "SER",
+                    "distance_angstrom": 3.584,
+                    "closest_candidate_atom": "OE1",
+                    "closest_neighbor_atom": "CB",
+                    "potential_donor_atoms": [
+                        "OG"
+                    ]
+                },
+                {
+                    "position": 186,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 4.341,
+                    "closest_candidate_atom": "CB",
+                    "closest_neighbor_atom": "CD1",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 168,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 4.522,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "CD1",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 332,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 4.979,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 146,
+                    "residue_3letter": "PHE",
+                    "distance_angstrom": 5.637,
+                    "closest_candidate_atom": "NE2",
+                    "closest_neighbor_atom": "CE2",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 167,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 5.646,
+                    "closest_candidate_atom": "OE1",
+                    "closest_neighbor_atom": "CD2",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 161,
+                    "residue_3letter": "THR",
+                    "distance_angstrom": 5.664,
+                    "closest_candidate_atom": "NE2",
+                    "closest_neighbor_atom": "CG2",
+                    "potential_donor_atoms": [
+                        "OG1"
+                    ]
+                },
+                {
+                    "position": 342,
+                    "residue_3letter": "THR",
+                    "distance_angstrom": 5.671,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": [
+                        "OG1"
+                    ]
+                },
+                {
+                    "position": 165,
+                    "residue_3letter": "THR",
+                    "distance_angstrom": 5.708,
+                    "closest_candidate_atom": "OE1",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": [
+                        "OG1"
+                    ]
+                },
+                {
+                    "position": 138,
+                    "residue_3letter": "GLU",
+                    "distance_angstrom": 5.714,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": [
+                        "OE1",
+                        "OE2"
+                    ]
+                }
+            ],
+            "potential_donor_contacts": [
+                {
+                    "candidate_atom": "NE2",
+                    "neighbor_position": 142,
+                    "neighbor_residue": "THR",
+                    "neighbor_atom": "OG1",
+                    "distance_angstrom": 3.502
+                },
+                {
+                    "candidate_atom": "OE1",
+                    "neighbor_position": 164,
+                    "neighbor_residue": "SER",
+                    "neighbor_atom": "OG",
+                    "distance_angstrom": 3.681
+                },
+                {
+                    "candidate_atom": "NE2",
+                    "neighbor_position": 164,
+                    "neighbor_residue": "SER",
+                    "neighbor_atom": "OG",
+                    "distance_angstrom": 3.785
+                },
+                {
+                    "candidate_atom": "NE2",
+                    "neighbor_position": 340,
+                    "neighbor_residue": "THR",
+                    "neighbor_atom": "OG1",
+                    "distance_angstrom": 4.692
+                }
+            ],
+            "distance_from_candidate_center": 11.249,
+            "pocket_score": {
+                "chemical_score": 30,
+                "structural_score": 55,
+                "total_score": 85,
+                "evidence_level": "high"
+            },
+            "rank": 4
+        },
+        {
+            "position": 57,
+            "residue": "ALA",
+            "residue_1letter": "A",
+            "mean_plddt": 88.44,
+            "potential_donor_atoms": [],
+            "nearby_residues": [
+                {
+                    "position": 56,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 1.333,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "C",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 58,
+                    "residue_3letter": "TYR",
+                    "distance_angstrom": 1.34,
+                    "closest_candidate_atom": "C",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": [
+                        "OH"
+                    ]
+                },
+                {
+                    "position": 63,
+                    "residue_3letter": "ASN",
+                    "distance_angstrom": 2.834,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "ND2",
+                    "potential_donor_atoms": [
+                        "OD1",
+                        "ND2"
+                    ]
+                },
+                {
+                    "position": 60,
+                    "residue_3letter": "ASP",
+                    "distance_angstrom": 3.082,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "OD1",
+                    "potential_donor_atoms": [
+                        "OD1",
+                        "OD2"
+                    ]
+                },
+                {
+                    "position": 59,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 3.268,
+                    "closest_candidate_atom": "C",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 55,
+                    "residue_3letter": "SER",
+                    "distance_angstrom": 3.274,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "C",
+                    "potential_donor_atoms": [
+                        "OG"
+                    ]
+                },
+                {
+                    "position": 54,
+                    "residue_3letter": "VAL",
+                    "distance_angstrom": 3.324,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 235,
+                    "residue_3letter": "MET",
+                    "distance_angstrom": 3.332,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "SD",
+                    "potential_donor_atoms": [
+                        "SD"
+                    ]
+                },
+                {
+                    "position": 238,
+                    "residue_3letter": "ASN",
+                    "distance_angstrom": 3.44,
+                    "closest_candidate_atom": "CB",
+                    "closest_neighbor_atom": "ND2",
+                    "potential_donor_atoms": [
+                        "OD1",
+                        "ND2"
+                    ]
+                },
+                {
+                    "position": 53,
+                    "residue_3letter": "MET",
+                    "distance_angstrom": 4.077,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": [
+                        "SD"
+                    ]
+                },
+                {
+                    "position": 342,
+                    "residue_3letter": "THR",
+                    "distance_angstrom": 4.311,
+                    "closest_candidate_atom": "CB",
+                    "closest_neighbor_atom": "CG2",
+                    "potential_donor_atoms": [
+                        "OG1"
+                    ]
+                },
+                {
+                    "position": 237,
+                    "residue_3letter": "HIS",
+                    "distance_angstrom": 4.333,
+                    "closest_candidate_atom": "CB",
+                    "closest_neighbor_atom": "NE2",
+                    "potential_donor_atoms": [
+                        "ND1",
+                        "NE2"
+                    ]
+                },
+                {
+                    "position": 339,
+                    "residue_3letter": "SER",
+                    "distance_angstrom": 5.055,
+                    "closest_candidate_atom": "CA",
+                    "closest_neighbor_atom": "OG",
+                    "potential_donor_atoms": [
+                        "OG"
+                    ]
+                },
+                {
+                    "position": 232,
+                    "residue_3letter": "ALA",
+                    "distance_angstrom": 5.745,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 52,
+                    "residue_3letter": "PHE",
+                    "distance_angstrom": 5.832,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 233,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 5.856,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                }
+            ],
+            "potential_donor_contacts": [],
+            "distance_from_candidate_center": 3.766,
+            "pocket_score": {
+                "chemical_score": 0,
+                "structural_score": 55,
+                "total_score": 55,
+                "evidence_level": "moderate"
+            },
+            "rank": 5
+        },
+        {
+            "position": 232,
+            "residue": "ALA",
+            "residue_1letter": "A",
+            "mean_plddt": 85.12,
+            "potential_donor_atoms": [],
+            "nearby_residues": [
+                {
+                    "position": 231,
+                    "residue_3letter": "GLY",
+                    "distance_angstrom": 1.335,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "C",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 233,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 1.34,
+                    "closest_candidate_atom": "C",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 228,
+                    "residue_3letter": "ALA",
+                    "distance_angstrom": 2.928,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 63,
+                    "residue_3letter": "ASN",
+                    "distance_angstrom": 3.092,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "OD1",
+                    "potential_donor_atoms": [
+                        "OD1",
+                        "ND2"
+                    ]
+                },
+                {
+                    "position": 234,
+                    "residue_3letter": "VAL",
+                    "distance_angstrom": 3.34,
+                    "closest_candidate_atom": "C",
+                    "closest_neighbor_atom": "N",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 230,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 3.415,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "C",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 229,
+                    "residue_3letter": "LEU",
+                    "distance_angstrom": 3.496,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 235,
+                    "residue_3letter": "MET",
+                    "distance_angstrom": 3.561,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "CG",
+                    "potential_donor_atoms": [
+                        "SD"
+                    ]
+                },
+                {
+                    "position": 66,
+                    "residue_3letter": "THR",
+                    "distance_angstrom": 3.728,
+                    "closest_candidate_atom": "CB",
+                    "closest_neighbor_atom": "OG1",
+                    "potential_donor_atoms": [
+                        "OG1"
+                    ]
+                },
+                {
+                    "position": 227,
+                    "residue_3letter": "ILE",
+                    "distance_angstrom": 4.986,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 62,
+                    "residue_3letter": "GLY",
+                    "distance_angstrom": 5.095,
+                    "closest_candidate_atom": "CB",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 400,
+                    "residue_3letter": "SER",
+                    "distance_angstrom": 5.193,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "OG",
+                    "potential_donor_atoms": [
+                        "OG"
+                    ]
+                },
+                {
+                    "position": 396,
+                    "residue_3letter": "SER",
+                    "distance_angstrom": 5.253,
+                    "closest_candidate_atom": "CB",
+                    "closest_neighbor_atom": "OG",
+                    "potential_donor_atoms": [
+                        "OG"
+                    ]
+                },
+                {
+                    "position": 444,
+                    "residue_3letter": "ASN",
+                    "distance_angstrom": 5.413,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "OD1",
+                    "potential_donor_atoms": [
+                        "OD1",
+                        "ND2"
+                    ]
+                },
+                {
+                    "position": 447,
+                    "residue_3letter": "PHE",
+                    "distance_angstrom": 5.648,
+                    "closest_candidate_atom": "N",
+                    "closest_neighbor_atom": "CE1",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 57,
+                    "residue_3letter": "ALA",
+                    "distance_angstrom": 5.745,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "O",
+                    "potential_donor_atoms": []
+                },
+                {
+                    "position": 60,
+                    "residue_3letter": "ASP",
+                    "distance_angstrom": 5.848,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "OD1",
+                    "potential_donor_atoms": [
+                        "OD1",
+                        "OD2"
+                    ]
+                },
+                {
+                    "position": 58,
+                    "residue_3letter": "TYR",
+                    "distance_angstrom": 5.975,
+                    "closest_candidate_atom": "O",
+                    "closest_neighbor_atom": "CD1",
+                    "potential_donor_atoms": [
+                        "OH"
+                    ]
+                }
+            ],
+            "potential_donor_contacts": [],
+            "distance_from_candidate_center": 7.462,
+            "pocket_score": {
+                "chemical_score": 0,
+                "structural_score": 55,
+                "total_score": 55,
+                "evidence_level": "moderate"
+            },
+            "rank": 6
+        }
+    ],
+    "interpretation": "Candidate residues were evaluated for their local structural environment, potential metal-donor atoms, nearby residue density, and AlphaFold confidence. Higher scores indicate stronger structural support for prioritization. This analysis does not establish direct metal coordination, metal-binding affinity, or experimental binding probability. Docking or additional structural validation is required."
+}

@@ -1,0 +1,97 @@
+{
+    "target": {
+        "gene": "OsNRAMP5",
+        "uniprot": "Q8H4H5",
+        "ncbi_accession": "NP_001389970.1",
+        "sequence_file": "data/sequences/proteins/OsNRAMP5_NP_001389970.1.fasta"
+    },
+    "structure": {
+        "model": "AF-Q8H4H5-F1-model_v6",
+        "source": "AlphaFold Protein Structure Database",
+        "file": "data/structures/predicted/AF-Q8H4H5-F1-model_v6.pdb",
+        "model_count": 1,
+        "chains": [
+            "A"
+        ],
+        "protein_residue_count": 538,
+        "total_protein_atoms": 4125,
+        "mean_plddt": 78.60484121212122,
+        "minimum_plddt": 24.78,
+        "maximum_plddt": 95.0
+    },
+    "sequence_validation": {
+        "target_sequence_length": 538,
+        "structure_residue_count": 538,
+        "length_difference": 0,
+        "length_match": true
+    },
+    "candidate_residues": [
+        {
+            "position": 57,
+            "expected_residue": "A",
+            "structure_residue_3letter": "ALA",
+            "structure_residue_1letter": "A",
+            "residue_matches_expected": true,
+            "mean_plddt": 88.44,
+            "minimum_plddt": 88.44,
+            "maximum_plddt": 88.44,
+            "status": "present"
+        },
+        {
+            "position": 60,
+            "expected_residue": "D",
+            "structure_residue_3letter": "ASP",
+            "structure_residue_1letter": "D",
+            "residue_matches_expected": true,
+            "mean_plddt": 91.75,
+            "minimum_plddt": 91.75,
+            "maximum_plddt": 91.75,
+            "status": "present"
+        },
+        {
+            "position": 63,
+            "expected_residue": "N",
+            "structure_residue_3letter": "ASN",
+            "structure_residue_1letter": "N",
+            "residue_matches_expected": true,
+            "mean_plddt": 91.94,
+            "minimum_plddt": 91.94,
+            "maximum_plddt": 91.94,
+            "status": "present"
+        },
+        {
+            "position": 232,
+            "expected_residue": "A",
+            "structure_residue_3letter": "ALA",
+            "structure_residue_1letter": "A",
+            "residue_matches_expected": true,
+            "mean_plddt": 85.12,
+            "minimum_plddt": 85.12,
+            "maximum_plddt": 85.12,
+            "status": "present"
+        },
+        {
+            "position": 235,
+            "expected_residue": "M",
+            "structure_residue_3letter": "MET",
+            "structure_residue_1letter": "M",
+            "residue_matches_expected": true,
+            "mean_plddt": 88.5,
+            "minimum_plddt": 88.5,
+            "maximum_plddt": 88.5,
+            "status": "present"
+        },
+        {
+            "position": 337,
+            "expected_residue": "Q",
+            "structure_residue_3letter": "GLN",
+            "structure_residue_1letter": "Q",
+            "residue_matches_expected": true,
+            "mean_plddt": 87.69,
+            "minimum_plddt": 87.69,
+            "maximum_plddt": 87.69,
+            "status": "present"
+        }
+    ],
+    "interpretation": "AlphaFold predicted structure validated for chain, residue count, sequence length, and confidence. Candidate residues were checked for presence, residue identity, and local pLDDT confidence. Structural confidence does not by itself establish metal-binding function."
+}

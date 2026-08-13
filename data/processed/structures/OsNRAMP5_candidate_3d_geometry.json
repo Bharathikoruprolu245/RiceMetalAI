@@ -1,0 +1,301 @@
+{
+    "target": {
+        "gene": "OsNRAMP5",
+        "uniprot": "Q8H4H5",
+        "ncbi_accession": "NP_001389970.1",
+        "sequence_length_aa": 538
+    },
+    "structure": {
+        "model": "AF-Q8H4H5-F1-model_v6",
+        "chain": "A",
+        "source": "AlphaFold Protein Structure Database",
+        "file": "data/structures/predicted/AF-Q8H4H5-F1-model_v6.pdb"
+    },
+    "candidate_residues": [
+        {
+            "position": 57,
+            "expected_residue": "A",
+            "residue_3letter": "ALA",
+            "plddt": 88.44
+        },
+        {
+            "position": 60,
+            "expected_residue": "D",
+            "residue_3letter": "ASP",
+            "plddt": 91.75
+        },
+        {
+            "position": 63,
+            "expected_residue": "N",
+            "residue_3letter": "ASN",
+            "plddt": 91.94
+        },
+        {
+            "position": 232,
+            "expected_residue": "A",
+            "residue_3letter": "ALA",
+            "plddt": 85.12
+        },
+        {
+            "position": 235,
+            "expected_residue": "M",
+            "residue_3letter": "MET",
+            "plddt": 88.5
+        },
+        {
+            "position": 337,
+            "expected_residue": "Q",
+            "residue_3letter": "GLN",
+            "plddt": 87.69
+        }
+    ],
+    "distance_analysis": {
+        "ca_distance_method": "C-alpha Euclidean distance",
+        "closest_atom_method": "minimum heavy/protein atom distance between candidate residues",
+        "pairwise_ca_distances": [
+            {
+                "residue_1": 57,
+                "residue_2": 60,
+                "distance_angstrom": 5.273
+            },
+            {
+                "residue_1": 57,
+                "residue_2": 63,
+                "distance_angstrom": 8.128
+            },
+            {
+                "residue_1": 57,
+                "residue_2": 232,
+                "distance_angstrom": 9.892
+            },
+            {
+                "residue_1": 57,
+                "residue_2": 235,
+                "distance_angstrom": 7.342
+            },
+            {
+                "residue_1": 57,
+                "residue_2": 337,
+                "distance_angstrom": 11.121
+            },
+            {
+                "residue_1": 60,
+                "residue_2": 63,
+                "distance_angstrom": 5.527
+            },
+            {
+                "residue_1": 60,
+                "residue_2": 232,
+                "distance_angstrom": 9.981
+            },
+            {
+                "residue_1": 60,
+                "residue_2": 235,
+                "distance_angstrom": 10.48
+            },
+            {
+                "residue_1": 60,
+                "residue_2": 337,
+                "distance_angstrom": 8.914
+            },
+            {
+                "residue_1": 63,
+                "residue_2": 232,
+                "distance_angstrom": 5.933
+            },
+            {
+                "residue_1": 63,
+                "residue_2": 235,
+                "distance_angstrom": 9.828
+            },
+            {
+                "residue_1": 63,
+                "residue_2": 337,
+                "distance_angstrom": 14.268
+            },
+            {
+                "residue_1": 232,
+                "residue_2": 235,
+                "distance_angstrom": 6.659
+            },
+            {
+                "residue_1": 232,
+                "residue_2": 337,
+                "distance_angstrom": 18.472
+            },
+            {
+                "residue_1": 235,
+                "residue_2": 337,
+                "distance_angstrom": 17.189
+            }
+        ],
+        "pairwise_closest_atom_distances": [
+            {
+                "residue_1": 57,
+                "residue_2": 60,
+                "closest_atom_1": "O",
+                "closest_atom_2": "OD1",
+                "distance_angstrom": 3.082
+            },
+            {
+                "residue_1": 57,
+                "residue_2": 63,
+                "closest_atom_1": "O",
+                "closest_atom_2": "ND2",
+                "distance_angstrom": 2.834
+            },
+            {
+                "residue_1": 57,
+                "residue_2": 232,
+                "closest_atom_1": "O",
+                "closest_atom_2": "O",
+                "distance_angstrom": 5.745
+            },
+            {
+                "residue_1": 57,
+                "residue_2": 235,
+                "closest_atom_1": "O",
+                "closest_atom_2": "SD",
+                "distance_angstrom": 3.332
+            },
+            {
+                "residue_1": 57,
+                "residue_2": 337,
+                "closest_atom_1": "N",
+                "closest_atom_2": "C",
+                "distance_angstrom": 9.649
+            },
+            {
+                "residue_1": 60,
+                "residue_2": 63,
+                "closest_atom_1": "OD1",
+                "closest_atom_2": "ND2",
+                "distance_angstrom": 2.785
+            },
+            {
+                "residue_1": 60,
+                "residue_2": 232,
+                "closest_atom_1": "OD1",
+                "closest_atom_2": "O",
+                "distance_angstrom": 5.848
+            },
+            {
+                "residue_1": 60,
+                "residue_2": 235,
+                "closest_atom_1": "OD2",
+                "closest_atom_2": "CE",
+                "distance_angstrom": 3.403
+            },
+            {
+                "residue_1": 60,
+                "residue_2": 337,
+                "closest_atom_1": "CA",
+                "closest_atom_2": "N",
+                "distance_angstrom": 7.921
+            },
+            {
+                "residue_1": 63,
+                "residue_2": 232,
+                "closest_atom_1": "OD1",
+                "closest_atom_2": "O",
+                "distance_angstrom": 3.092
+            },
+            {
+                "residue_1": 63,
+                "residue_2": 235,
+                "closest_atom_1": "ND2",
+                "closest_atom_2": "SD",
+                "distance_angstrom": 4.148
+            },
+            {
+                "residue_1": 63,
+                "residue_2": 337,
+                "closest_atom_1": "N",
+                "closest_atom_2": "N",
+                "distance_angstrom": 12.214
+            },
+            {
+                "residue_1": 232,
+                "residue_2": 235,
+                "closest_atom_1": "O",
+                "closest_atom_2": "CG",
+                "distance_angstrom": 3.561
+            },
+            {
+                "residue_1": 232,
+                "residue_2": 337,
+                "closest_atom_1": "O",
+                "closest_atom_2": "N",
+                "distance_angstrom": 16.138
+            },
+            {
+                "residue_1": 235,
+                "residue_2": 337,
+                "closest_atom_1": "SD",
+                "closest_atom_2": "C",
+                "distance_angstrom": 12.529
+            }
+        ]
+    },
+    "spatial_clustering": {
+        "threshold_angstrom": 15.0,
+        "clusters": [
+            {
+                "cluster_id": 1,
+                "residues": [
+                    {
+                        "position": 57,
+                        "residue": "A"
+                    },
+                    {
+                        "position": 60,
+                        "residue": "D"
+                    },
+                    {
+                        "position": 63,
+                        "residue": "N"
+                    },
+                    {
+                        "position": 232,
+                        "residue": "A"
+                    },
+                    {
+                        "position": 235,
+                        "residue": "M"
+                    },
+                    {
+                        "position": 337,
+                        "residue": "Q"
+                    }
+                ]
+            }
+        ]
+    },
+    "nearest_candidate_relationships": {
+        "57": {
+            "nearest_candidate_position": 60,
+            "distance_angstrom": 5.273
+        },
+        "60": {
+            "nearest_candidate_position": 57,
+            "distance_angstrom": 5.273
+        },
+        "63": {
+            "nearest_candidate_position": 60,
+            "distance_angstrom": 5.527
+        },
+        "232": {
+            "nearest_candidate_position": 63,
+            "distance_angstrom": 5.933
+        },
+        "235": {
+            "nearest_candidate_position": 232,
+            "distance_angstrom": 6.659
+        },
+        "337": {
+            "nearest_candidate_position": 60,
+            "distance_angstrom": 8.914
+        }
+    },
+    "interpretation": "Candidate residues were analyzed in the OsNRAMP5 AlphaFold structure using pairwise C-alpha and closest-atom distances. Spatially close residues may form a structural cluster and can be prioritized for further metal-binding pocket analysis. The 15 \u00c5 clustering threshold is a computational screening criterion and does not establish a metal-binding site or direct coordination."
+}
